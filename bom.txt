@@ -1,0 +1,80 @@
+Preliminary Info - CAUTION: may change!
+
+Analog Board		Control Board	Qty	Part
+------------		-------------	---	----
+C34-C41			C92		9	Capacitor 22pF, NP0, 5%, 0805   CC0805JRNPO9BN220
+C46-C47					2	Capacitor 47pF, NP0, 5%, 0805   CC0805JRNPO9BN470
+C18-C25					8	Capacitor 470pF, NP0, 5%, 0805  CC0805JRNPO9BN471
+			C81-C90		10	Capacitor 680pF, NP0, 5%, 0805  CC0805JRNPO9BN681
+C44-C45					2	Capacitor 1nF, NP0, 5%, 0805    CL21C102JBCNFNC CC0805JRNPO9BN102
+C42-C43					2	Capacitor 8.2nF, NP0, 5%, 0805	GRM2195C2A822JA01D
+C7-C10			C91		5	Capacitor 10nF, X7R, 0805
+C2-C6,C11-C17,C26-C33	C52-C68,C94	38	Capacitor 0.1uF, X7R, 0805
+C1,C50-C51		C69-C73		8	Capacitor 1.0uF, X7R, 0805
+C48-C49			C74-C80		9	Capacitor 10uF, X5R, 0805  CL21A106KOQNNNG  TMK212BBJ106KG-T
+			C93		1	Capacitor 10uF, Tantalum, 1206  TAJA106K016RNJ
+			C95-C97		3	Capacitor 22uF, X5R, 25V, 0805  CL31A226KAHNNNE
+			D1		1	Diode, Bridge Rectifier, HD01-T
+			D2-D4		3	Diode, Zener, 5.1V, 3W, 1SMB5918B
+			D5		1	Diode, SDO123, 1N4148W-TP
+			F1		1	PTC Fuse, 100mA, 1812  MF-MSMF010-2
+J1-J20					20	Jack, mono 3.5mm, PJ-301M
+J21					1	OLED Display, 1.3 inch
+J22-J23					2	Header, 7x2
+J26-J27					2	Header, 16x1
+			J28-J29		2	Socket, 7x2  (omit if soldering boards together)
+			J30-J31		2	Socket, 16x1  (omit if soldering boards together)
+			J32		1	Header, 5x2 Shrouded
+			J33		1	Header, 4x1
+			J34-J35		2	Header, 2x1 (omit if debug signals not needed)
+			J36-J37		2	Test Point (omit if not needed)  Keystone 5011
+			J38		1	Connector, JST 4 pin, Sparkfun QWIIC PRT-14417
+			L1		1	Inductor, Ferrite Bead, 0.5A, 600ohm  HZ0805E601R-10
+			L2		1	Inductor, 10uH, 1A, 4mm  BCIHP0420SC-100M  ASPI-4030S-100M-T  LQH44NN100K03L  LQH44PH100MPRL  CY43-10UH  MDA4020-100M  IFSC1515AHER100M01
+			L3		1	Inductor, 1.5uH, 1A, 0805  BRC2012T1R5MD
+			Q1-Q2		2	Mosfet, N-ch, SOT23  FDV303N
+			R144		1	Resistor 0 ohm jumper, 0805
+			R139-R143	5	Resistor 75, 1%, 1/4W, 1206  (5% ok)  CRCW120675R0FKEAC
+			R103-R117	15	Resistor 100, 1%, 0805  (5% ok)
+R59-R66,R83-R92		R118		19	Resistor 220, 1%, 0805  (5% ok)
+R6-R10,R17-R22		R119		11	Resistor 470, 1%, 0805
+			R131-R132	2	Resistor 1K, 1%, 0805  (5% ok)
+R93-R94					2	Resistor 1.40K, 1%, 0805
+R95-R96					2	Resistor 2.21K, 1%, 0805
+R97-R98					2	Resistor 3.48K, 1%, 0805
+R1-R5,R11-R16,R23-R26	R120-R124	20	Resistor 4.7K, 1%, 0805 (5% ok, except R121,R124)
+			R126		1	Resistor 5.11K, 1%, 0805
+			R133-R137	5	Resistor 10K, 0.05%, 0805  ERA-6ARW103V  RT0805WRD0710KL
+			R125		1	Resistor 11K, 1%, 0805
+			R138		1	Resistor 20K, 0.05%, 0805  ERA-6ARW203V  RT0805WRD0720KL  AR05ATB2002  PTFR0805Q20K0N9
+			R127-R128	2	Resistor 22K, 1%, 0805
+R67-R74					8	Resistor 24.9K, 0.1%, 0805  RT0805BRD0724K9L  ARG05BTC2492
+R101-R102				2	Resistor 31.6K, 1%, 0805
+R51-R58					8	Resistor 49.9K, 0.1%, 0805  RT0805BRD0749K9L
+R43-R50					8	Resistor 75K, 0.1%, 0805   RT0805BRD0775KL
+R27-R30,R99-R100			6	Resistor 100K, 1%, 0805
+R35-R42,R75-R82				16	Resistor 100K, 0.1%, 0805  RT0805BRD07100KL
+			R129-R130	2	Resistor 150K, 1%, 0805
+R31-R34					4	Resistor 1M, 1%, 0805  (5% ok)
+			R200-R202	0	Do not populate
+SW1-SW5					5	Pushbutton + Cap, TL1105SPF100Q + 1RLGR (E-Switch)
+SW6-SW7					2	Rotary Encoder, PEC11R-4220K-S0024
+U1					1	IC, Voltage Comparator, SOIC14, LM339A
+U2-U5					4	IC, Dual Opamp, SOIC8, MCP6002
+U6-U9					4	IC, Dual Opamp, SOIC8, OPA2172 (TI) or GS2262-SR (Gainsil)
+U10					1	IC, Dual Opamp, SOIC8, MCP6022
+U11					1	IC, Dual Opamp, SOIC8, LM833
+			U12		1	Teensy 4.1 (with headers and sockets)
+			U13		1	IC, Buck Converter, LMR54406FDBVR (do not use LMR54406DBVR)
+			U14		1	IC, LDO 5V, LP2985A-50DBVRM3 or LP2985A-50DBVR or LP2985-50DBVR
+			U15		1	IC, LDO 3.3V, TPS7A2033PDBVR or ADP150-3.3
+			U16		1	IC, LDO 1.8V, LP5907MFX-1.8/NOPB (alternate NCV8163A)
+			U17		1	IC, ADC, MCP33131D-05-E/MS
+			U18		1	IC, analog mux, 74LV4051PW,118 or SN74LV4051APWR
+			U19		1	IC, DAC, DAC8568IBPWR
+			U20-U23		4	IC, Buffer level shifter, SN74LV1T125DBVR or 74LV1T125GVH
+			U24		1	IC, Audio ADC, PCM1808PWR
+			U25		1	IC, Audio DAC, PCM1754DBQR
+			U26		1	IC, Dual Opamp, SOIC8, OPA2277UA (TI)  OPA2277M/TR (HGSemi)
+			U27		1	Optocoupler, DIP6, H11L1
+
