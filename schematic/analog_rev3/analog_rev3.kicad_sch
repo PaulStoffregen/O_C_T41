@@ -2268,6 +2268,10 @@
     (stroke (width 0) (type default))
     (uuid 09b6e206-e22b-4260-8651-143cdf0d9dee)
   )
+  (wire (pts (xy 361.95 452.12) (xy 361.95 457.2))
+    (stroke (width 0) (type default))
+    (uuid 09b8a262-97c7-423e-b3ba-7d10b498a99b)
+  )
   (wire (pts (xy 36.83 447.04) (xy 29.21 447.04))
     (stroke (width 0) (type default))
     (uuid 09d3c05b-fdac-43e8-bb65-ff73a5104d40)
@@ -3588,6 +3592,10 @@
     (stroke (width 0) (type default))
     (uuid 69c28372-5d72-477c-8663-424eeb252811)
   )
+  (wire (pts (xy 285.75 378.46) (xy 285.75 383.54))
+    (stroke (width 0) (type default))
+    (uuid 6a2f6f42-fa83-4dcd-8ff4-b79ae313b6fd)
+  )
   (wire (pts (xy 100.33 154.94) (xy 86.36 154.94))
     (stroke (width 0) (type default))
     (uuid 6a66acb2-2224-428d-aadf-625b80e13470)
@@ -3980,10 +3988,6 @@
     (stroke (width 0) (type default))
     (uuid 86615900-847c-4787-9997-370f13caaba6)
   )
-  (wire (pts (xy 207.01 381) (xy 207.01 378.46))
-    (stroke (width 0) (type default))
-    (uuid 866dae05-6cd9-4cd5-8915-4c1171d1f210)
-  )
   (wire (pts (xy 392.43 227.33) (xy 394.97 227.33))
     (stroke (width 0) (type default))
     (uuid 86dd8195-1453-467d-a221-0968c3a872d0)
@@ -4127,6 +4131,10 @@
   (wire (pts (xy 27.94 369.57) (xy 60.96 369.57))
     (stroke (width 0) (type default))
     (uuid 91ab888f-08e4-46c5-a9e0-3d0e0d18d89e)
+  )
+  (wire (pts (xy 207.01 378.46) (xy 207.01 383.54))
+    (stroke (width 0) (type default))
+    (uuid 9271c6aa-53e7-4bd6-85f7-1a990bceca1d)
   )
   (wire (pts (xy 62.23 107.95) (xy 62.23 125.73))
     (stroke (width 0) (type default))
@@ -5104,10 +5112,6 @@
     (stroke (width 0) (type default))
     (uuid d15348b6-25b3-4273-9ce7-6f3850bce5fb)
   )
-  (wire (pts (xy 361.95 454.66) (xy 361.95 452.12))
-    (stroke (width 0) (type default))
-    (uuid d1a50f73-9ee3-4778-b224-21d761dda709)
-  )
   (wire (pts (xy 107.95 110.49) (xy 101.6 110.49))
     (stroke (width 0) (type default))
     (uuid d269d7ca-972e-4a93-a4da-119ecfd56334)
@@ -5171,10 +5175,6 @@
   (wire (pts (xy 278.13 402.59) (xy 280.67 402.59))
     (stroke (width 0) (type default))
     (uuid d75477c5-1d19-4804-9344-d5996dab1033)
-  )
-  (wire (pts (xy 285.75 381) (xy 285.75 378.46))
-    (stroke (width 0) (type default))
-    (uuid d79f78ea-2427-470e-9d78-bdd62ec2aecd)
   )
   (wire (pts (xy 66.04 351.79) (xy 66.04 392.43))
     (stroke (width 0) (type default))
@@ -6027,7 +6027,7 @@
     )
     (pin "1" (uuid c93e5113-769c-438c-be26-e96b95a63299))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6059,7 +6059,7 @@
     (pin "4" (uuid df38d57e-d97e-4bae-8b3d-91ddaf33d537))
     (pin "8" (uuid b3f81d02-1fd1-493c-887f-c3ed7934582f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U6") (unit 2)
         )
@@ -6085,7 +6085,7 @@
     (pin "1" (uuid 4b787ad3-c102-488a-9368-73eba4dab077))
     (pin "2" (uuid 23e78f8c-f7b5-44d2-aec8-7d5704849cc1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C16") (unit 1)
         )
@@ -6111,7 +6111,7 @@
     (pin "1" (uuid 721e5ba9-4fdc-4483-b977-dc1efc6c1b88))
     (pin "2" (uuid daad5682-41d3-4178-a25d-39f1bbbf9708))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R58") (unit 1)
         )
@@ -6136,7 +6136,7 @@
     )
     (pin "1" (uuid 9093f631-6c55-474a-8f63-75253f6e987a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6162,7 +6162,7 @@
     (pin "1" (uuid 925409a2-e183-4fcb-afab-d497943322fb))
     (pin "2" (uuid 23cce358-5ba3-4965-b4af-5a810fdb55b8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C5") (unit 1)
         )
@@ -6187,7 +6187,7 @@
     )
     (pin "1" (uuid 9ade4563-49cf-4b66-ba93-114cc5b41cbe))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6213,7 +6213,7 @@
     (pin "1" (uuid c9ab628c-55e9-4246-bb50-2e087fa3b6c0))
     (pin "2" (uuid 25ed2027-4724-4815-ac13-0b15ab6015d4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R32") (unit 1)
         )
@@ -6239,7 +6239,7 @@
     (pin "1" (uuid 85506aef-93be-406d-9b4f-73376a57de99))
     (pin "2" (uuid 71cc7d2f-2aeb-473d-af87-6ea7a3634ada))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C42") (unit 1)
         )
@@ -6265,7 +6265,7 @@
     (pin "1" (uuid 2e7c103c-1d51-4bdc-9922-3fddee974038))
     (pin "2" (uuid 35f83924-9836-4ca7-a4d8-1864622a424f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW2") (unit 1)
         )
@@ -6291,7 +6291,7 @@
     (pin "1" (uuid 9aeb2864-ed2e-4851-817e-697f8b674186))
     (pin "2" (uuid 80c23f80-c30e-432e-98a5-a0b86dcf8cf8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R3") (unit 1)
         )
@@ -6305,7 +6305,7 @@
     (property "Reference" "J21" (at 218.44 13.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x07" (at 218.44 16.51 90)
+    (property "Value" "OLED Display" (at 218.44 16.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 218.44 20.32 0)
@@ -6322,7 +6322,7 @@
     (pin "6" (uuid 03cc28d8-4c30-4964-8a6d-682cc12426b7))
     (pin "7" (uuid d7266d91-b552-4fb3-a4bd-303aa9e2d0a6))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J21") (unit 1)
         )
@@ -6348,7 +6348,7 @@
     (pin "1" (uuid 332d54dd-6e78-497b-9155-d36a9cf55e46))
     (pin "2" (uuid e05291f0-6b6a-43b3-98d7-4bbbbc8375fd))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R87") (unit 1)
         )
@@ -6374,7 +6374,7 @@
     (pin "1" (uuid 23b5dd60-0056-4c6b-8f24-9026d5f7cad2))
     (pin "2" (uuid 91a65142-faa0-4d63-adae-065c53090779))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R70") (unit 1)
         )
@@ -6401,7 +6401,7 @@
     (pin "T" (uuid f90b874b-82d3-4713-9dc4-4d2c80bf39da))
     (pin "TN" (uuid 126215e7-7afa-43f5-9a05-6466d61f53bb))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J2") (unit 1)
         )
@@ -6427,7 +6427,7 @@
     (pin "1" (uuid 2addbd48-edbb-4b6e-833b-b50efd16f3e1))
     (pin "2" (uuid ac611c36-5ba8-4a81-8103-b48b5c34e02e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C3") (unit 1)
         )
@@ -6452,7 +6452,7 @@
     )
     (pin "1" (uuid 43a6317e-c3f9-4931-8160-0f3ca927fa10))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6477,7 +6477,7 @@
     )
     (pin "1" (uuid e6c783d9-0daf-46e8-b6ab-de6f6547214b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6509,7 +6509,7 @@
     (pin "6" (uuid 2e8eece8-afe2-4974-afbc-175646d70784))
     (pin "7" (uuid 58fd7825-4036-4a7c-951e-5e7253cdae78))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U2") (unit 3)
         )
@@ -6536,7 +6536,7 @@
     (pin "T" (uuid 60296b37-dfba-4b0e-9310-c43e1a8c36b8))
     (pin "TN" (uuid 6313772b-1908-4c95-83c2-84d3402e20cc))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J8") (unit 1)
         )
@@ -6562,7 +6562,7 @@
     (pin "1" (uuid 648ab47c-7b17-4b6a-a7d3-368104400a02))
     (pin "2" (uuid cb435ea4-dbb0-45c9-bb7e-ef97a361afa8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R44") (unit 1)
         )
@@ -6587,7 +6587,7 @@
     )
     (pin "1" (uuid c75069ca-fe82-4a5a-8222-b1fe8fdced42))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6613,7 +6613,7 @@
     (pin "1" (uuid 5425264a-04c6-41a2-9e0f-147a5473805a))
     (pin "2" (uuid 6451d921-047f-40c3-a98e-d6e4958a8f14))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R102") (unit 1)
         )
@@ -6638,7 +6638,7 @@
     )
     (pin "1" (uuid e21c6096-9cfd-465f-b160-395588402346))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6663,7 +6663,7 @@
     )
     (pin "1" (uuid af33caa7-527c-4445-b795-54b1fd919d5f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6688,7 +6688,7 @@
     )
     (pin "1" (uuid 59a9686c-8104-4198-8c4c-afd8bab156ef))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6714,7 +6714,7 @@
     (pin "1" (uuid 0e9fa64c-d857-488c-9c3a-921b65531c70))
     (pin "2" (uuid d425ee89-2a45-4f41-9fe7-7e62069579cf))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "JP?") (unit 1)
         )
@@ -6740,7 +6740,7 @@
     (pin "1" (uuid 5485615c-da46-4c9a-9a70-25f670cf9aa8))
     (pin "2" (uuid aedbb372-c0de-4a99-b556-12d997cab52f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R54") (unit 1)
         )
@@ -6766,7 +6766,7 @@
     (pin "1" (uuid fd41027c-dd95-48a7-9e57-43c1c5b6a3fe))
     (pin "2" (uuid b51bf732-175e-49fd-9d53-93693f8aa864))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R93") (unit 1)
         )
@@ -6792,7 +6792,7 @@
     (pin "1" (uuid 104d5f05-38ae-4a05-a404-7ec35a5e8104))
     (pin "2" (uuid 97151920-4089-4daf-8811-b816762c4453))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C29") (unit 1)
         )
@@ -6818,7 +6818,7 @@
     (pin "1" (uuid a52c2e27-e868-4eb7-b7f2-81d4fea32d6b))
     (pin "2" (uuid df145cf0-c885-4525-9dd4-7c69f4517617))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R90") (unit 1)
         )
@@ -6844,7 +6844,7 @@
     (pin "1" (uuid d8dd5e33-b673-46cd-afb2-bd8116b99fe2))
     (pin "2" (uuid dd9f5f88-4145-495e-bc67-e657b20d4be4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C9") (unit 1)
         )
@@ -6869,7 +6869,7 @@
     )
     (pin "1" (uuid ea13abf9-5df9-4d1c-a503-445b8b0f9923))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -6895,7 +6895,7 @@
     (pin "1" (uuid 67a82051-9bed-4212-bfb3-94c52ce6b685))
     (pin "2" (uuid b0aea59b-d122-4e14-9f04-29ff1ab3f6fc))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R42") (unit 1)
         )
@@ -6924,7 +6924,7 @@
     (pin "S1" (uuid 1a47f2dc-f1e7-4500-b3a3-5f8d03db9e27))
     (pin "S2" (uuid 7fe7b2ad-aaa4-44bc-9179-8e1b086b60cc))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW7") (unit 1)
         )
@@ -6950,7 +6950,7 @@
     (pin "1" (uuid d43f8027-6700-4c34-aa97-0921a32e98f3))
     (pin "2" (uuid 3d16ee32-a8d9-4d07-91cc-57f659acd318))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C38") (unit 1)
         )
@@ -6976,7 +6976,7 @@
     (pin "1" (uuid 374dc3a6-d586-4e39-b9f5-479a7b91771f))
     (pin "2" (uuid 1f87fd49-1e23-4231-8344-132bcf61eee7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R9") (unit 1)
         )
@@ -7002,7 +7002,7 @@
     (pin "1" (uuid 1712a4f5-c58a-4e0d-935b-c08accce18c5))
     (pin "2" (uuid c4e218eb-8ace-4d2f-a03c-4365b84c8e51))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R2") (unit 1)
         )
@@ -7027,7 +7027,7 @@
     )
     (pin "1" (uuid ec5f83ce-6bb9-4e76-aba9-d2ae9593a31f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7053,7 +7053,7 @@
     (pin "1" (uuid 2613c2f5-4f48-41ca-806f-21c19a1872ec))
     (pin "2" (uuid a1301c03-3852-44b5-a32c-3d8539916f5a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C15") (unit 1)
         )
@@ -7078,7 +7078,7 @@
     )
     (pin "1" (uuid 18bcff67-f5ee-4692-9829-ffca7557379e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7103,7 +7103,7 @@
     )
     (pin "1" (uuid c627d7cb-3d5d-4691-b3cf-225b047c92fc))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7129,7 +7129,7 @@
     (pin "1" (uuid c6fc565a-e612-4f92-a9fb-3552b8f2f661))
     (pin "2" (uuid 5956e5d7-e5d6-416a-8f3e-ea90eed7e326))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R5") (unit 1)
         )
@@ -7154,7 +7154,7 @@
     )
     (pin "1" (uuid 984fa994-507d-4f93-8058-f2d4b1e9bb0c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7180,7 +7180,7 @@
     (pin "1" (uuid efbafafd-9656-41f1-bc52-09609642717e))
     (pin "2" (uuid e0124525-0e2c-442e-8ef2-835710914ff8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R49") (unit 1)
         )
@@ -7212,7 +7212,7 @@
     (pin "4" (uuid b7a3eb46-9c01-48e0-8fcf-fde12ac22b63))
     (pin "8" (uuid aea0e56a-3196-47df-9fd5-827143893519))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U2") (unit 1)
         )
@@ -7238,7 +7238,7 @@
     (pin "1" (uuid e26ced77-84e9-4d2b-9550-1a586e921a38))
     (pin "2" (uuid b5d61c3e-6b5b-42f0-9a26-7038b3296884))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R24") (unit 1)
         )
@@ -7270,7 +7270,7 @@
     (pin "4" (uuid 4878f81a-c3ce-408b-a555-14a3feba1344))
     (pin "8" (uuid 149a98bc-eac3-43bd-95fe-d4354677cd3c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U11") (unit 2)
         )
@@ -7295,7 +7295,7 @@
     )
     (pin "1" (uuid bfc19bf6-e3da-4716-afe7-72fc384dbdc3))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7327,7 +7327,7 @@
     (pin "4" (uuid 51fe8e88-ed33-42d3-93b6-9569221154b4))
     (pin "8" (uuid 083bdc92-eb4f-4a58-bec1-f22115352daf))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U7") (unit 1)
         )
@@ -7352,7 +7352,7 @@
     )
     (pin "1" (uuid 9237d152-3e11-4949-877c-be733a37617e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7378,7 +7378,7 @@
     (pin "1" (uuid 0f1f8ea3-aadb-4323-8c06-7f290d059a3e))
     (pin "2" (uuid d4125905-2340-48ee-9123-3a96822fa8df))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "JP?") (unit 1)
         )
@@ -7416,7 +7416,7 @@
     (pin "8" (uuid 010c3ce6-9f83-486c-806d-fbe816bdb08d))
     (pin "9" (uuid 45f04997-df8b-4728-af14-42527e38a82e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J23") (unit 1)
         )
@@ -7442,7 +7442,7 @@
     (pin "1" (uuid 733e3d19-c098-42f4-885f-ba19ec128260))
     (pin "2" (uuid 7435a260-0867-412e-bc73-c0452c76258a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R72") (unit 1)
         )
@@ -7468,7 +7468,7 @@
     (pin "1" (uuid 7df35e66-e8c4-4a74-b3ca-31252784ef6c))
     (pin "2" (uuid 4c66e67c-d75a-4396-9345-cd2b8a2dcc8d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R52") (unit 1)
         )
@@ -7494,7 +7494,7 @@
     (pin "1" (uuid 1a4aef79-3593-474d-9d9f-47dac28e1e7e))
     (pin "2" (uuid 3b4c5e6a-fb04-4353-bed2-136073fd064f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C19") (unit 1)
         )
@@ -7521,7 +7521,7 @@
     (pin "T" (uuid a660872c-925c-447a-af9a-62a07f15b2cc))
     (pin "TN" (uuid 75aa4db5-6877-4b4e-8240-4ddd9a300cbd))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J17") (unit 1)
         )
@@ -7546,7 +7546,7 @@
     )
     (pin "1" (uuid 8bcf0e3f-c1a6-4314-a5c8-66057e47822c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7578,7 +7578,7 @@
     (pin "6" (uuid 7b3345bc-af42-4d85-9429-8df3a7e385ba))
     (pin "7" (uuid 9c130827-63a3-4c27-ac14-015e2bd94005))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U11") (unit 3)
         )
@@ -7603,7 +7603,7 @@
     )
     (pin "1" (uuid d4ed8ebf-641a-4096-ae39-7b6bf5430122))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7631,7 +7631,7 @@
     (pin "3" (uuid d43c2c4e-86a0-491f-ad4f-d0b9b47df9a1))
     (pin "4" (uuid 454fbee9-4026-48f4-bcb1-637b9b21429d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J25") (unit 1)
         )
@@ -7656,7 +7656,7 @@
     )
     (pin "1" (uuid 5fb7a467-8b39-45bb-a357-8ead1b1930c9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7681,7 +7681,7 @@
     )
     (pin "1" (uuid 77f6d74e-1a1e-4b95-9373-1a530646dae0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7706,7 +7706,7 @@
     )
     (pin "1" (uuid f6729cb7-4ecf-4632-9e88-8fb64a2dc0a7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7732,7 +7732,7 @@
     (pin "1" (uuid 79fa4982-5911-4783-a17c-61b1776c91d0))
     (pin "2" (uuid ffdb5d3a-b9ec-4f95-9aa7-e00bf37a1c58))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R35") (unit 1)
         )
@@ -7770,7 +7770,7 @@
     (pin "8" (uuid 940b8385-a4b2-4252-ad62-ef2068b35266))
     (pin "9" (uuid dba15874-6b38-4ca9-95e0-3df0c183c1f0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J22") (unit 1)
         )
@@ -7796,7 +7796,7 @@
     (pin "1" (uuid ad9c15f2-9876-4555-9a7a-72091b782c70))
     (pin "2" (uuid 7af9e971-b56a-45a6-9b3b-43d0b90e2b88))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R92") (unit 1)
         )
@@ -7822,7 +7822,7 @@
     (pin "1" (uuid c80db3eb-592d-48bc-9031-2d1adf0f7822))
     (pin "2" (uuid bc85f85d-fca3-4419-beae-365cd51a9f65))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C45") (unit 1)
         )
@@ -7847,7 +7847,7 @@
     )
     (pin "1" (uuid fcaba155-7ba8-4521-9789-b8571929c403))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7873,7 +7873,7 @@
     (pin "1" (uuid 1dc93e14-76e5-4926-9811-ec353ee1c45e))
     (pin "2" (uuid d188784d-3826-4cd0-8951-e6847f928a67))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R57") (unit 1)
         )
@@ -7899,7 +7899,7 @@
     (pin "1" (uuid 1b4baf9b-8980-41e1-a137-77e4eae28ffa))
     (pin "2" (uuid abefde4f-44d6-4607-8b1b-227e9b41df6e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "JP?") (unit 1)
         )
@@ -7924,7 +7924,7 @@
     )
     (pin "1" (uuid 07bd2e7e-36c8-43c0-b8cb-3c8208727c76))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -7950,7 +7950,7 @@
     (pin "1" (uuid bd8a727e-1a7a-4073-882c-52df50a8799c))
     (pin "2" (uuid cd57bb6f-341b-4ea8-a11e-02b50eeeded7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R81") (unit 1)
         )
@@ -7976,7 +7976,7 @@
     (pin "1" (uuid ff8ca0c6-78a9-49d5-a2d2-1554da093d6e))
     (pin "2" (uuid abaa51e4-7cb6-4561-95c9-3784c31dc96f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW4") (unit 1)
         )
@@ -8002,7 +8002,7 @@
     (pin "1" (uuid d7558a2d-327f-4815-89b2-ba052cbc7520))
     (pin "2" (uuid b826e65f-07b3-4937-b190-f7cdb17daa77))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C8") (unit 1)
         )
@@ -8030,7 +8030,7 @@
     (pin "3" (uuid 9e24de5d-2f1c-45d8-a82f-70791e9e4ecd))
     (pin "4" (uuid 490fe665-2a2b-40b7-bbe8-408d6883bab5))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J24") (unit 1)
         )
@@ -8056,7 +8056,7 @@
     (pin "1" (uuid 3589e063-c398-4458-9095-51ad863d15e0))
     (pin "2" (uuid 5b72f973-1afd-4628-99af-5b361de176fa))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R16") (unit 1)
         )
@@ -8082,9 +8082,34 @@
     (pin "1" (uuid fc9c2ca7-fca7-4ae1-82c4-184f483820d9))
     (pin "2" (uuid 2d2d21f1-991f-480f-a670-8659c31f31df))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 361.95 457.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 432cd556-009c-4056-9a90-e50df2952117)
+    (property "Reference" "#PWR03" (at 361.95 463.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 361.95 462.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 361.95 457.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 361.95 457.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e74fd35-4815-40fe-a543-f35f86a5f8ef))
+    (instances
+      (project "analog_rev3"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -8107,7 +8132,7 @@
     )
     (pin "1" (uuid 95bbdb30-305d-4d31-ae4b-7b04051082cb))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8133,7 +8158,7 @@
     (pin "1" (uuid d3445f9f-9f24-4306-b153-83a3253da65e))
     (pin "2" (uuid b48a1ce6-bfd1-4d41-aedd-16b96581c982))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C46") (unit 1)
         )
@@ -8159,7 +8184,7 @@
     (pin "1" (uuid b3b7b034-4336-490e-955f-0e579b64c78e))
     (pin "2" (uuid 6adfb656-fadb-4782-8076-f8717b94ce86))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R31") (unit 1)
         )
@@ -8185,7 +8210,7 @@
     (pin "1" (uuid 21471fb1-da29-4224-904b-546576d44700))
     (pin "2" (uuid e1041816-7296-4c0c-a989-5d5470f97d4b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R61") (unit 1)
         )
@@ -8211,7 +8236,7 @@
     (pin "1" (uuid dd903375-476d-44b8-98d4-e760e2928879))
     (pin "2" (uuid 6943cf94-2d0d-492d-a171-dea806d88f6a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C36") (unit 1)
         )
@@ -8237,7 +8262,7 @@
     (pin "1" (uuid c71f7aef-0766-41ce-b25b-c15a38b9c31c))
     (pin "2" (uuid 47af4c70-0c8a-4564-8475-1731bad02d47))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "JP?") (unit 1)
         )
@@ -8262,7 +8287,7 @@
     )
     (pin "1" (uuid 442a2a2d-7447-440f-98ec-d7012acb06b4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8294,7 +8319,7 @@
     (pin "6" (uuid 88f854c6-a541-4690-8887-b913acc54bfe))
     (pin "7" (uuid 444cff29-671d-4ad2-a5bc-2a82f9d9a11d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U7") (unit 3)
         )
@@ -8319,7 +8344,7 @@
     )
     (pin "1" (uuid 9ff8ff5a-6b0b-40dc-9f47-2457677fce03))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8351,7 +8376,7 @@
     (pin "6" (uuid e2f4f0fe-d88e-43e4-bb5c-8216dee3be62))
     (pin "7" (uuid 4b944b5c-8e0c-405e-8efa-537e16ce7111))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U9") (unit 3)
         )
@@ -8376,7 +8401,7 @@
     )
     (pin "1" (uuid 10fb77c6-3d34-468d-ab59-ecd0101be884))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8403,7 +8428,7 @@
     (pin "T" (uuid b396b64d-a908-4c1d-a6c7-e6e0438db7b4))
     (pin "TN" (uuid d19640ff-1622-4382-bf0e-3fa1c2bf677f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J14") (unit 1)
         )
@@ -8428,7 +8453,7 @@
     )
     (pin "1" (uuid 733bf8d0-aa9c-456d-af9b-a2a06d73f20a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8453,7 +8478,7 @@
     )
     (pin "1" (uuid e309ec13-748b-424d-8a44-91ecd0f17b6d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8479,7 +8504,7 @@
     (pin "1" (uuid fc70b9e6-efc1-4d6d-a9dd-d534987d7d5c))
     (pin "2" (uuid 3e1d0861-9017-45c5-8999-fbdb1cc79168))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R95") (unit 1)
         )
@@ -8504,7 +8529,7 @@
     )
     (pin "1" (uuid 17207631-cb34-423c-96d1-cb74e29fa72b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8529,7 +8554,7 @@
     )
     (pin "1" (uuid 1c22cdcf-af2d-48c0-8ce7-60f45d72f891))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8555,7 +8580,7 @@
     (pin "1" (uuid 88534705-13fd-406b-ade8-3b255d9360ad))
     (pin "2" (uuid 531026fa-ea4e-4865-85ee-27fe1d9514a1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C23") (unit 1)
         )
@@ -8587,7 +8612,7 @@
     (pin "4" (uuid 1c9f9e9b-b990-4a7e-8f1e-25d83f929b07))
     (pin "8" (uuid 80c0ed15-0750-4e31-8b22-6fe4c7f5ec32))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U8") (unit 2)
         )
@@ -8612,7 +8637,7 @@
     )
     (pin "1" (uuid e7aa367c-6bab-48d9-b353-e28708560b9b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8638,7 +8663,7 @@
     (pin "1" (uuid 50472752-4576-4751-a853-d34d8746125c))
     (pin "2" (uuid 4181981e-dff7-4deb-9c95-e546e2c9f443))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R37") (unit 1)
         )
@@ -8663,7 +8688,7 @@
     )
     (pin "1" (uuid 8e4f0352-4ddd-4261-b6a9-8d2f7250ebe4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8695,7 +8720,7 @@
     (pin "4" (uuid 1139ddd2-27f2-4929-9d0e-99a1fb1dc737))
     (pin "8" (uuid 7d123898-34e7-4309-93f8-a2f1e4a83a73))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U5") (unit 2)
         )
@@ -8721,7 +8746,7 @@
     (pin "1" (uuid dba6b21a-cd31-40a9-bc9c-96d1d02a70a1))
     (pin "2" (uuid 8eb46933-500d-4979-b879-666120d93e8d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R100") (unit 1)
         )
@@ -8746,7 +8771,7 @@
     )
     (pin "1" (uuid fa639f16-1915-4e21-8e33-04b851d6ef6a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8773,7 +8798,7 @@
     (pin "T" (uuid f4bf6050-124f-4d2c-8a4f-f0e13dc77fd3))
     (pin "TN" (uuid cb0a109b-eae7-43ef-a4e3-985ffbbd8853))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J1") (unit 1)
         )
@@ -8799,7 +8824,7 @@
     (pin "1" (uuid 30ec82e2-86ed-48ee-9f0d-153d2be58fa3))
     (pin "2" (uuid 567eb616-ff29-4d6c-8b86-8f236bf8636a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C34") (unit 1)
         )
@@ -8825,7 +8850,7 @@
     (pin "1" (uuid 84b86775-9a35-4e11-92b3-dbf7c6b16a31))
     (pin "2" (uuid 75c39b18-3f6c-431c-a20d-a202163a73eb))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R85") (unit 1)
         )
@@ -8851,7 +8876,7 @@
     (pin "1" (uuid 8de0fd63-1376-459e-84f2-e09bea2197d2))
     (pin "2" (uuid 91f9af80-f85e-4ee2-a05b-6078366c541b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R41") (unit 1)
         )
@@ -8877,7 +8902,7 @@
     (pin "1" (uuid d3fc002e-6e2e-42fb-856a-2f49c806b30b))
     (pin "2" (uuid a4489459-41b9-4770-849c-6b77b2cd7901))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C43") (unit 1)
         )
@@ -8903,7 +8928,7 @@
     (pin "1" (uuid 28744aaf-f1ac-4f51-9bf3-c5392916ae29))
     (pin "2" (uuid 19c6cfac-4735-494a-829f-9123c6859e46))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R59") (unit 1)
         )
@@ -8928,7 +8953,7 @@
     )
     (pin "1" (uuid d193a79b-c86e-46f3-9277-dfe3d6d9c5b1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -8960,7 +8985,7 @@
     (pin "6" (uuid 5b882fe8-efc5-445c-9cca-3fdad4a52d8e))
     (pin "7" (uuid a9c45633-1107-4b09-9711-f2920afb5c18))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U3") (unit 3)
         )
@@ -8986,7 +9011,7 @@
     (pin "1" (uuid 272f54b1-704e-4bad-83ea-d19ec2a6717b))
     (pin "2" (uuid 2fe52f3b-415a-4070-8856-2f7d9c6e2435))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R60") (unit 1)
         )
@@ -9011,7 +9036,7 @@
     )
     (pin "1" (uuid d6947394-3277-42a3-82d6-e283e8a4c310))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9037,7 +9062,7 @@
     (pin "1" (uuid db2da866-7c10-43d5-9ea9-adce423e5540))
     (pin "2" (uuid 88033545-7263-4d99-b981-ffc064ee2b56))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R98") (unit 1)
         )
@@ -9062,7 +9087,7 @@
     )
     (pin "1" (uuid 864e591f-4c33-484d-8167-9c8feebd54b7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9088,7 +9113,7 @@
     (pin "1" (uuid 52fb00a5-562b-40b4-ae37-c61754469404))
     (pin "2" (uuid db7cd346-4feb-4643-81ab-626b8563c8a8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C50") (unit 1)
         )
@@ -9113,7 +9138,7 @@
     )
     (pin "1" (uuid 80c2860c-70f6-4792-b6c8-5938ca6ab639))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9138,7 +9163,7 @@
     )
     (pin "1" (uuid 9f0290b0-0c32-4816-8885-fddeaf712592))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9170,7 +9195,7 @@
     (pin "4" (uuid e92e2ad7-87a7-42ad-a0d8-7b40e1b1d1fc))
     (pin "8" (uuid 2b449cb9-dfdb-44e2-89b6-e8848612d605))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U5") (unit 1)
         )
@@ -9197,7 +9222,7 @@
     (pin "T" (uuid 0a7d6080-bf76-4812-b4c7-846392288185))
     (pin "TN" (uuid f6eb4ba3-a1f4-4a6f-8d96-41a299cf7da7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J6") (unit 1)
         )
@@ -9222,7 +9247,7 @@
     )
     (pin "1" (uuid 42ac9421-cba3-4dd2-b352-08b180f7ca80))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9248,7 +9273,7 @@
     (pin "1" (uuid 74e8efe4-0d8f-45b8-a14d-38141f839e4d))
     (pin "2" (uuid 41b6fc7f-7bc6-4462-a5ce-e4f766e44060))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R21") (unit 1)
         )
@@ -9273,7 +9298,7 @@
     )
     (pin "1" (uuid 2c26f3a1-647c-4e89-bec4-e3093c7ba870))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9299,7 +9324,7 @@
     (pin "1" (uuid 2bd61193-c28b-4ccc-8814-58f28da47406))
     (pin "2" (uuid 01ac2442-60e7-415d-ae40-c616f4acad71))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R34") (unit 1)
         )
@@ -9325,7 +9350,7 @@
     (pin "1" (uuid b38ef519-5d91-4b2f-a70b-66b2450ff2d8))
     (pin "2" (uuid 14bb93b5-6fd2-4109-853f-1f72a344b4c0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C39") (unit 1)
         )
@@ -9350,7 +9375,7 @@
     )
     (pin "1" (uuid 9d2dfcb7-b2b6-4777-9001-fddb9337c9db))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9375,7 +9400,7 @@
     )
     (pin "1" (uuid 20897f20-53ce-41ab-83c8-59b8d947f5ea))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9400,7 +9425,7 @@
     )
     (pin "1" (uuid ba04253e-55a4-4b98-809d-56f353017a8c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9425,7 +9450,7 @@
     )
     (pin "1" (uuid a8a9ee63-5b47-4db6-b987-2729e5881105))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9451,7 +9476,7 @@
     (pin "1" (uuid cc8251c2-d878-4a85-befd-3904e7c160e4))
     (pin "2" (uuid 5474c94b-4816-4b08-947b-592ae977dab4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R55") (unit 1)
         )
@@ -9477,7 +9502,7 @@
     (pin "1" (uuid 73d8fc42-8df1-433b-b54a-121b0b0c07ef))
     (pin "2" (uuid 2f2b5813-bbda-4bab-9183-74f6294bc4c1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R78") (unit 1)
         )
@@ -9502,7 +9527,7 @@
     )
     (pin "1" (uuid ccfc187c-dcc6-4212-9fba-94c3ca1e7d62))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9528,7 +9553,7 @@
     (pin "1" (uuid ec1ac7d4-c984-4d71-8042-9813f7569b8e))
     (pin "2" (uuid 919ea304-e5e1-4f6b-8c9e-712b63e6f2ce))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R68") (unit 1)
         )
@@ -9553,7 +9578,7 @@
     )
     (pin "1" (uuid 7a7d258d-d574-47ca-a54c-640b61c379d1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9579,7 +9604,7 @@
     (pin "1" (uuid f97f8757-5258-48e2-9848-3ab6102ad9d3))
     (pin "2" (uuid 8b5ad5dd-b1e8-4587-9c19-14b74d7fff1b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R8") (unit 1)
         )
@@ -9605,7 +9630,7 @@
     (pin "1" (uuid 9de977c7-533f-45b9-9358-265f7d3b6076))
     (pin "2" (uuid e7945d96-c82e-4863-8ddd-46bdfb8d355a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R23") (unit 1)
         )
@@ -9631,7 +9656,7 @@
     (pin "1" (uuid d097011f-8320-45f1-8db2-372e0b81e36f))
     (pin "2" (uuid e1dcb8d7-e29b-45ec-b95e-999ec6526dde))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R43") (unit 1)
         )
@@ -9656,7 +9681,7 @@
     )
     (pin "1" (uuid 7a49f205-f75e-45df-ae12-3dae11145950))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9682,7 +9707,7 @@
     (pin "1" (uuid 093b74d0-a5ef-4584-9577-8f12e844067c))
     (pin "2" (uuid 14858687-541b-4ba6-b764-656f16f965e7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R40") (unit 1)
         )
@@ -9708,7 +9733,7 @@
     (pin "1" (uuid 480b5a7c-760b-4811-8783-0940507c28c6))
     (pin "2" (uuid 5c8bec43-3b73-4394-be9f-996637a299dc))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R75") (unit 1)
         )
@@ -9733,7 +9758,7 @@
     )
     (pin "1" (uuid fe2fbad8-5f77-4aec-b95c-170327598d13))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9758,7 +9783,7 @@
     )
     (pin "1" (uuid e173dc70-88e9-46a7-90db-2a2d8bd86a65))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9783,7 +9808,7 @@
     )
     (pin "1" (uuid be4503f9-10e2-4b74-9951-4aa8099115b2))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9815,7 +9840,7 @@
     (pin "6" (uuid e2670d33-477e-4d5b-930c-518193f858d5))
     (pin "7" (uuid 05a1789f-1927-4a22-bda3-6af9290baf0c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U8") (unit 3)
         )
@@ -9840,7 +9865,7 @@
     )
     (pin "1" (uuid 05d0e6bb-d2fd-4ee3-84db-389d9694fbc1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9867,7 +9892,7 @@
     (pin "T" (uuid cffb2a1d-1914-453f-8bb8-d36f6f936842))
     (pin "TN" (uuid 37022790-de5a-48ec-a780-1cab4a287444))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J20") (unit 1)
         )
@@ -9893,7 +9918,7 @@
     (pin "1" (uuid 711ad4e1-b86e-4cbe-a7e8-2fc40b28b7e4))
     (pin "2" (uuid b1f27a45-2d5b-4bfe-88cc-ae284958d2d3))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C37") (unit 1)
         )
@@ -9919,7 +9944,7 @@
     (pin "1" (uuid 3a53448b-0fc6-4295-a18a-03d69808ee16))
     (pin "2" (uuid 7eb2743b-3666-4180-8b42-242b554bf67f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C27") (unit 1)
         )
@@ -9945,7 +9970,7 @@
     (pin "1" (uuid 2e8418a8-fcf3-44b3-9a67-987e7ffc7c6b))
     (pin "2" (uuid ae0f85c3-404e-40e6-878b-0c9906c70cf6))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R17") (unit 1)
         )
@@ -9970,7 +9995,7 @@
     )
     (pin "1" (uuid b4c25a47-572a-4f74-947d-066156635b7f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -9995,7 +10020,7 @@
     )
     (pin "1" (uuid 8e23b019-ae68-4798-9530-e5c8e27655a8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10020,7 +10045,7 @@
     )
     (pin "1" (uuid 2d53bbfe-6353-4692-a021-30a4d1bfe62c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10046,7 +10071,7 @@
     (pin "1" (uuid db13e589-aed8-4bfa-bf91-dad9dd4dce0b))
     (pin "2" (uuid d33fdcec-c316-466e-a72f-b28ae0bc4df0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R33") (unit 1)
         )
@@ -10073,7 +10098,7 @@
     (pin "T" (uuid d0bd510b-4f3d-4e21-ab01-7301036cae15))
     (pin "TN" (uuid d11b4cb7-a29e-4010-95f4-e005690d5553))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J11") (unit 1)
         )
@@ -10099,7 +10124,7 @@
     (pin "1" (uuid 5f3b0b20-cf4a-4437-bc52-831846c7a76f))
     (pin "2" (uuid 83756b8c-8cbd-4d89-b3ff-c9a21e6ba639))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C51") (unit 1)
         )
@@ -10126,7 +10151,7 @@
     (pin "T" (uuid d813becd-d727-40f8-b754-e89d173f44e2))
     (pin "TN" (uuid f41fa266-af95-4e55-bde8-a7453c2e5f7e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J13") (unit 1)
         )
@@ -10152,7 +10177,7 @@
     (pin "1" (uuid 373db437-7166-46ed-8e98-e81a494c84a2))
     (pin "2" (uuid d1ba80af-d5c1-44a5-b88c-78afd69df8e5))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C20") (unit 1)
         )
@@ -10178,7 +10203,7 @@
     (pin "1" (uuid 4a7f6968-9c70-4b6e-a992-286146f337a4))
     (pin "2" (uuid 2c430558-e25a-4282-845c-3df05a4ba985))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R4") (unit 1)
         )
@@ -10203,7 +10228,7 @@
     )
     (pin "1" (uuid 793bfe2a-fe09-44ce-ac8a-2305e080908a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10228,7 +10253,7 @@
     )
     (pin "1" (uuid 9f5b9d7b-43f7-46d7-9bd2-a25a2e308b78))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10254,7 +10279,7 @@
     (pin "1" (uuid aa4239d1-6727-45b6-9157-2b2ef25a9348))
     (pin "2" (uuid d784e1c7-010c-4224-8c7d-ff7b2c15094b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C33") (unit 1)
         )
@@ -10280,7 +10305,7 @@
     (pin "1" (uuid c8c38a78-4134-4450-865f-83de4c6eddee))
     (pin "2" (uuid 52ad340e-ebbb-492a-844c-aa52a33b8ba3))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C28") (unit 1)
         )
@@ -10307,7 +10332,7 @@
     (pin "T" (uuid 632f20c3-b0ef-4934-bd81-190803043734))
     (pin "TN" (uuid 362dd1a2-d442-4400-9be0-d316af6ac3fa))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J9") (unit 1)
         )
@@ -10333,7 +10358,7 @@
     (pin "1" (uuid 4427be93-7efa-4a4c-bb0b-c420dce43e14))
     (pin "2" (uuid 68c6a3a0-c947-44f0-8541-452160a61d11))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R20") (unit 1)
         )
@@ -10359,7 +10384,7 @@
     (pin "1" (uuid 9d453a83-d549-4e53-9b94-252a2773677d))
     (pin "2" (uuid 82bae665-d321-473f-84ea-77a7eee3c022))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R39") (unit 1)
         )
@@ -10385,7 +10410,7 @@
     (pin "1" (uuid 0dc32d06-d64a-4bff-af46-843987330167))
     (pin "2" (uuid 3ad5306f-ff77-4a24-8e26-568013b0c3b6))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R64") (unit 1)
         )
@@ -10410,7 +10435,7 @@
     )
     (pin "1" (uuid de176f20-cb5a-4d32-b65d-38c06387dd2b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10436,7 +10461,7 @@
     (pin "1" (uuid b72afa14-1f5b-4af7-bf99-698e4044ad26))
     (pin "2" (uuid 89f82b31-b703-46a8-a54a-474400f579b1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R6") (unit 1)
         )
@@ -10462,7 +10487,7 @@
     (pin "1" (uuid b9840c97-0600-4980-acfc-36c15976b5d3))
     (pin "2" (uuid a489f9e8-ceac-4076-a2f1-b4d373e3511c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW3") (unit 1)
         )
@@ -10488,7 +10513,7 @@
     (pin "1" (uuid 58d0e37d-b4bc-4b79-bb28-7da6a653f488))
     (pin "2" (uuid db711de9-a2b5-4746-b23f-f79b2f3de59a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R25") (unit 1)
         )
@@ -10513,7 +10538,7 @@
     )
     (pin "1" (uuid 1dbd881b-1d3b-4dbe-a167-3ce9536afc5a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10539,7 +10564,7 @@
     (pin "1" (uuid 9ffb4780-aa0b-4018-8a58-be1a19939b34))
     (pin "2" (uuid e00f5339-2353-4f99-9676-e92c020f398f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R96") (unit 1)
         )
@@ -10565,7 +10590,7 @@
     (pin "1" (uuid e9fc3b8c-4fbc-4d7d-8e1b-bad284b73f2a))
     (pin "2" (uuid eb3822a0-347c-4e64-8d15-826d07122948))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R12") (unit 1)
         )
@@ -10590,7 +10615,7 @@
     )
     (pin "1" (uuid 403f2560-dd85-4b3f-8ea8-6f83c24a349c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10616,7 +10641,7 @@
     (pin "1" (uuid 23dc90d5-33ef-4f8c-a43c-50704a655624))
     (pin "2" (uuid 586c4298-1e62-4986-8518-2d3a317613ea))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R94") (unit 1)
         )
@@ -10642,7 +10667,7 @@
     (pin "1" (uuid 7da09d3a-7a8b-47c6-ba53-db21cc5292b8))
     (pin "2" (uuid b309c851-1269-4bca-9a62-d981ac4dd468))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R62") (unit 1)
         )
@@ -10668,7 +10693,7 @@
     (pin "1" (uuid eded2967-1bf9-4798-bedf-e7e46b770286))
     (pin "2" (uuid e14736d8-6fa2-434d-a2e3-41445d9b14bd))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R19") (unit 1)
         )
@@ -10706,9 +10731,34 @@
     (pin "12" (uuid ce6c9f56-97f3-4645-af15-c24f039fffa5))
     (pin "3" (uuid b4900265-9423-41d7-a0f4-f91f81752565))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 207.01 383.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8a6bd2f3-46da-4af3-b766-2c505c02ac1c)
+    (property "Reference" "#PWR01" (at 207.01 389.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 207.01 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 207.01 383.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 207.01 383.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 96c3e5f7-d8d2-4e0f-9cb3-7163541cb335))
+    (instances
+      (project "analog_rev3"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -10732,7 +10782,7 @@
     (pin "1" (uuid ccfee8ed-b3f8-49ac-be82-84fca934da5c))
     (pin "2" (uuid 073f69b9-7b41-4357-8f3d-33978524def2))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C48") (unit 1)
         )
@@ -10758,7 +10808,7 @@
     (pin "1" (uuid 12073e4c-7f3c-4c44-bb86-921faccb5c64))
     (pin "2" (uuid e1a440c7-41f7-4525-aa05-b17b73dc238f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R83") (unit 1)
         )
@@ -10784,7 +10834,7 @@
     (pin "1" (uuid fd4140de-c8b6-4282-8488-61fe5ce6c84a))
     (pin "2" (uuid 5eca3e3c-3fd4-411d-bc9e-e014492270ba))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C18") (unit 1)
         )
@@ -10809,7 +10859,7 @@
     )
     (pin "1" (uuid 3aa7861e-1c7c-4bcb-96c5-787b57c368c9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10834,7 +10884,7 @@
     )
     (pin "1" (uuid 8b40941e-6c59-4bc4-a513-f8561b2f6055))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10859,7 +10909,7 @@
     )
     (pin "1" (uuid 0ba38e6f-10ac-4191-852c-91824c6d4325))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10885,7 +10935,7 @@
     (pin "1" (uuid 12d96170-c767-4f08-9efe-36e2341f98f6))
     (pin "2" (uuid d96b44e9-7493-4a94-8f05-92e2d768b13e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R46") (unit 1)
         )
@@ -10912,7 +10962,7 @@
     (pin "T" (uuid 9b63425d-889b-4ddd-beed-9a58d21d80d8))
     (pin "TN" (uuid cf26b5ef-4423-4226-8e99-5afb00834700))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J10") (unit 1)
         )
@@ -10937,7 +10987,7 @@
     )
     (pin "1" (uuid 0de43fd0-2141-4859-8d88-38bb5c193d64))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -10969,7 +11019,7 @@
     (pin "4" (uuid d67a1604-0760-4875-a4cd-5ad22252992f))
     (pin "8" (uuid ff9ec210-1a2d-4f7a-8299-35e8010633dd))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U8") (unit 1)
         )
@@ -10995,7 +11045,7 @@
     (pin "1" (uuid 21675e7d-c229-4b6e-b11d-24b5886b88ef))
     (pin "2" (uuid 2e6465c0-7feb-48bb-95b5-44ed4dd7bfde))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C17") (unit 1)
         )
@@ -11020,7 +11070,7 @@
     )
     (pin "1" (uuid f1a6a507-cd63-4de9-924e-386d3daa51c0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -11058,7 +11108,7 @@
     (pin "12" (uuid 8492c4cd-c969-4ec3-b1bd-bb8dfcfc188f))
     (pin "3" (uuid 342dabbd-45b7-4c47-9638-f24ce9ecac81))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U1") (unit 2)
         )
@@ -11090,7 +11140,7 @@
     (pin "6" (uuid 4af138fb-a068-4d11-81cd-23fc1680126b))
     (pin "7" (uuid 7ef98469-2b62-4758-a0b1-f64938987988))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U10") (unit 3)
         )
@@ -11122,7 +11172,7 @@
     (pin "4" (uuid 2a528a9e-9b05-4150-a01f-8b8fda19c88e))
     (pin "8" (uuid 8b33402c-502d-4158-8cf0-522940cd5858))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U4") (unit 1)
         )
@@ -11148,7 +11198,7 @@
     (pin "1" (uuid 92318037-abe2-45b8-980e-2f467d4164d5))
     (pin "2" (uuid dbf521b2-f8f3-4af8-a97c-27f6a23fd4c8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R26") (unit 1)
         )
@@ -11177,7 +11227,7 @@
     (pin "S1" (uuid 00aefffa-7d6f-45ca-91c8-39c222a6f0e9))
     (pin "S2" (uuid 0398d5ca-3ff1-4205-a4de-928172402356))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW6") (unit 1)
         )
@@ -11203,7 +11253,7 @@
     (pin "1" (uuid faa20acb-f3ae-498b-8ae5-ae40ca309d88))
     (pin "2" (uuid 0fdf3155-5024-4ee0-927b-30f0c8cd6e64))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R63") (unit 1)
         )
@@ -11228,7 +11278,7 @@
     )
     (pin "1" (uuid 241312bc-660d-402f-8491-0ca83ac285da))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -11253,7 +11303,7 @@
     )
     (pin "1" (uuid e24d6f96-2626-4dee-8f13-62f487551093))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -11285,7 +11335,7 @@
     (pin "4" (uuid 24bc2ec6-acdf-4c3f-af9f-a33dca4bae52))
     (pin "8" (uuid 1465c0d1-f4e9-47e6-95be-12d70f036062))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U4") (unit 2)
         )
@@ -11311,7 +11361,7 @@
     (pin "1" (uuid 3d6e5bac-a6c2-4618-8f8b-8408e8cf87f7))
     (pin "2" (uuid 9beca8ad-a80c-4b70-bacd-9abea45c63c5))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R76") (unit 1)
         )
@@ -11343,7 +11393,7 @@
     (pin "6" (uuid d2c4d08b-02e6-43f2-8543-9936d9b55693))
     (pin "7" (uuid 931647c2-6eae-4f80-a211-1ac509900232))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U5") (unit 3)
         )
@@ -11369,7 +11419,7 @@
     (pin "1" (uuid 232aa801-dbe6-4e19-8f23-afd4c525ace0))
     (pin "2" (uuid 8edf155b-b44a-457d-9c10-24d61ab09251))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C13") (unit 1)
         )
@@ -11395,7 +11445,7 @@
     (pin "1" (uuid e2d4e31c-728d-4ca1-973a-9b1ae6de2114))
     (pin "2" (uuid a89d5879-083f-46db-8551-8b276c5d44ae))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R66") (unit 1)
         )
@@ -11421,7 +11471,7 @@
     (pin "1" (uuid 1457d05a-d636-4766-aac4-194bfbb994c2))
     (pin "2" (uuid c2fa1a2e-39ad-425a-8c73-3f82b70457ff))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R97") (unit 1)
         )
@@ -11447,7 +11497,7 @@
     (pin "1" (uuid fa32896d-d120-4993-830f-0086e5c149dd))
     (pin "2" (uuid 05c78cc1-c7ea-4ac0-8fc0-81f3840e27ac))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R67") (unit 1)
         )
@@ -11473,7 +11523,7 @@
     (pin "1" (uuid 335354e4-dc84-448f-9d28-68c570e929db))
     (pin "2" (uuid 1721a63d-1814-4148-b905-93ece4e99542))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R69") (unit 1)
         )
@@ -11499,7 +11549,7 @@
     (pin "1" (uuid ccf4be24-9d05-4a0b-89ad-8b9af313848b))
     (pin "2" (uuid 0bde18d5-25ff-4bf0-8d2c-781842d49ee4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R86") (unit 1)
         )
@@ -11525,7 +11575,7 @@
     (pin "1" (uuid f418241d-29e7-4afd-be4f-63643cafd694))
     (pin "2" (uuid d05e4848-10ec-4b3e-9770-303a1b9e5360))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R56") (unit 1)
         )
@@ -11551,7 +11601,7 @@
     (pin "1" (uuid 9b2f40d7-d1bd-45eb-82ea-18922e54c6c7))
     (pin "2" (uuid fe7ccf4b-0eaa-437d-805a-db4b2dd4cac6))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R13") (unit 1)
         )
@@ -11577,7 +11627,7 @@
     (pin "1" (uuid 2ad493f4-42d4-4249-8263-bb52bddf672c))
     (pin "2" (uuid 1f562875-2997-49e9-b68e-1d260e9bd6b1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R73") (unit 1)
         )
@@ -11586,13 +11636,13 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x16") (at 400.05 214.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid aa32cf33-4860-494b-9963-41bfc7161551)
-    (property "Reference" "J?" (at 402.59 214.6299 0)
+    (property "Reference" "J26" (at 398.78 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x16" (at 402.59 217.1699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "" (at 400.05 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -11617,9 +11667,9 @@
     (pin "8" (uuid 45a90b14-1014-479c-88a9-85a5e510020e))
     (pin "9" (uuid 3db27a46-69ad-4dfb-8116-e6bf6f6df0b3))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "J?") (unit 1)
+          (reference "J26") (unit 1)
         )
       )
     )
@@ -11643,7 +11693,7 @@
     (pin "1" (uuid d051d0a4-7ffd-4e65-918f-8663a3b87d8c))
     (pin "2" (uuid 4f3f886e-761a-498f-b7c6-2c8ffd1bd1d3))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R50") (unit 1)
         )
@@ -11669,7 +11719,7 @@
     (pin "1" (uuid eb6bfb66-eac9-454b-b7bc-cf9dfe72debd))
     (pin "2" (uuid 90272d01-fc9b-46e4-b6a5-eddadd4ce868))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R27") (unit 1)
         )
@@ -11701,7 +11751,7 @@
     (pin "4" (uuid 8bded2a8-803a-4137-9aac-8785c9bffa2b))
     (pin "8" (uuid c5670dbf-8eb5-43a8-9d50-58c9238d3c3a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U7") (unit 2)
         )
@@ -11739,7 +11789,7 @@
     (pin "12" (uuid 43c6761e-0db0-43c4-a296-80a3bc81893a))
     (pin "3" (uuid 64874d99-c34b-4ac9-bd5d-4c9f5a8ac62c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U1") (unit 4)
         )
@@ -11766,7 +11816,7 @@
     (pin "T" (uuid 79f20e6e-d185-48b2-9486-8f158ab6975e))
     (pin "TN" (uuid 019eac29-adec-46ef-9e3b-2d71c429b15f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J16") (unit 1)
         )
@@ -11798,7 +11848,7 @@
     (pin "4" (uuid 2b737099-8386-4bb5-8e20-219b25d38806))
     (pin "8" (uuid b0377bb7-e154-4f16-bc82-dad69a5cb758))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U2") (unit 2)
         )
@@ -11824,7 +11874,7 @@
     (pin "1" (uuid b1e73e46-9ffd-4309-948b-2b700d0addef))
     (pin "2" (uuid 34b97017-9763-46a4-bae3-084cdb7f0906))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C47") (unit 1)
         )
@@ -11849,7 +11899,7 @@
     )
     (pin "1" (uuid f89edab2-59cf-4ad4-be12-46b584add280))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -11874,7 +11924,7 @@
     )
     (pin "1" (uuid 69655815-76d0-40a3-b7a4-fcd915cdc57f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -11901,7 +11951,7 @@
     (pin "T" (uuid be855213-f969-4549-98eb-8216d820397d))
     (pin "TN" (uuid e62d6665-504e-4481-9374-9aa7a32b031c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J19") (unit 1)
         )
@@ -11927,7 +11977,7 @@
     (pin "1" (uuid a9f0c4ea-9e12-4b99-a307-7de92429198c))
     (pin "2" (uuid 9ff760e3-861b-41a2-ba90-5f74468e2113))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R99") (unit 1)
         )
@@ -11954,7 +12004,7 @@
     (pin "T" (uuid 573a8ec2-a436-40e7-8357-b6bebd045e4e))
     (pin "TN" (uuid d19f58c1-7277-4844-844e-d127f7bc85ac))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J4") (unit 1)
         )
@@ -11980,7 +12030,7 @@
     (pin "1" (uuid 33281e4b-a49a-48e3-a32b-755bc9d8dea6))
     (pin "2" (uuid a9c56f57-8e7d-4b5a-b64e-e831e302f245))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R28") (unit 1)
         )
@@ -12006,7 +12056,7 @@
     (pin "1" (uuid cb727ebe-1b46-4830-9475-414d14c9b14f))
     (pin "2" (uuid ececcbf8-247a-4bf2-a37f-ad843956878f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C7") (unit 1)
         )
@@ -12032,7 +12082,7 @@
     (pin "1" (uuid 13e0b490-4d52-4cce-9ece-8a9405e68e58))
     (pin "2" (uuid b5f54a69-7525-4fad-aa3d-459027e240c0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C2") (unit 1)
         )
@@ -12059,7 +12109,7 @@
     (pin "T" (uuid d9db34a3-c7a8-4635-bb23-4e1db2b6b64a))
     (pin "TN" (uuid 5554a258-c728-4a1f-92d0-c99813c0135b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J12") (unit 1)
         )
@@ -12091,7 +12141,7 @@
     (pin "4" (uuid 734e32c4-4ed2-462b-a2ab-4c7045536445))
     (pin "8" (uuid 4a97f9d8-e5de-4ea6-9178-9b00933331ad))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U9") (unit 2)
         )
@@ -12117,7 +12167,7 @@
     (pin "1" (uuid 5551581c-4dc1-47c2-8e41-b4b35dbe975b))
     (pin "2" (uuid e8ecd97a-2ca8-412b-83ba-31e1525afe8e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C44") (unit 1)
         )
@@ -12149,7 +12199,7 @@
     (pin "4" (uuid 105867a6-1689-4540-aa73-e3d580a8e448))
     (pin "8" (uuid 13ec36cf-8246-4b8b-9eb6-da775e484734))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U11") (unit 1)
         )
@@ -12176,7 +12226,7 @@
     (pin "T" (uuid f34e80a5-7d3c-4730-af61-dd02043b252b))
     (pin "TN" (uuid 0dee777a-048d-496f-98f8-af4b66978c1f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J15") (unit 1)
         )
@@ -12202,7 +12252,7 @@
     (pin "1" (uuid 869ded3a-7d7a-4bda-8e5f-81304748d63d))
     (pin "2" (uuid ed1172eb-6932-4596-a75e-3961d5709956))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C14") (unit 1)
         )
@@ -12228,7 +12278,7 @@
     (pin "1" (uuid 2231c2f8-58e0-4953-945b-274329546a21))
     (pin "2" (uuid 17cd6be6-1c9c-4c3d-9892-58e250bdfd2d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R38") (unit 1)
         )
@@ -12254,7 +12304,7 @@
     (pin "1" (uuid bffb8995-460f-4624-bf59-4befbdefbd9c))
     (pin "2" (uuid 60bf0840-f70a-4445-b44e-4f7a9a95c9ca))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C31") (unit 1)
         )
@@ -12280,7 +12330,7 @@
     (pin "1" (uuid d343da65-4f03-4927-8aac-57093e070efe))
     (pin "2" (uuid 76756735-b7d1-4d08-a161-02f7fb962f90))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R1") (unit 1)
         )
@@ -12305,7 +12355,7 @@
     )
     (pin "1" (uuid 56e0ff3c-28f2-4a28-84e3-8961b5eee845))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12337,7 +12387,7 @@
     (pin "4" (uuid c372b358-7e08-44fb-9ff3-0df0d1bb1e1e))
     (pin "8" (uuid 5d58210d-a530-4ff5-a785-a0414b7ab5bd))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U9") (unit 1)
         )
@@ -12362,7 +12412,7 @@
     )
     (pin "1" (uuid 978fe098-4f51-4f64-a8b1-a7f380b0e0c5))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12387,7 +12437,7 @@
     )
     (pin "1" (uuid 92f16819-a3c7-4529-b692-598eac45ee39))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12414,7 +12464,7 @@
     (pin "T" (uuid e9326ab3-9969-46de-8b72-3629a0b7a28d))
     (pin "TN" (uuid 6df13ae7-e85b-457b-9f76-85de91f5a47a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J3") (unit 1)
         )
@@ -12440,7 +12490,7 @@
     (pin "1" (uuid 032d613a-0f9c-4e09-84ac-4a3bd184486e))
     (pin "2" (uuid ad409f68-3dc6-4429-a21c-cf5c910419b7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R47") (unit 1)
         )
@@ -12466,7 +12516,7 @@
     (pin "1" (uuid 8e60d2c0-1f0b-42ed-a460-f692a768ab60))
     (pin "2" (uuid 2f95f073-ec36-467d-a4d6-c39309187bbf))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R71") (unit 1)
         )
@@ -12504,7 +12554,7 @@
     (pin "8" (uuid 61128a65-7841-43ce-b869-2c845475f6c6))
     (pin "9" (uuid 1ca59c65-728f-43bf-8b1a-dcacd0480d01))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U1") (unit 5)
         )
@@ -12529,7 +12579,7 @@
     )
     (pin "1" (uuid 0e341cf9-c401-4023-8430-671f1dc8d2a1))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12555,7 +12605,7 @@
     (pin "1" (uuid 73f404dd-57e9-4ab3-9c4f-c92cfa5981fb))
     (pin "2" (uuid a10058ce-d010-486e-8510-4c9519994281))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R29") (unit 1)
         )
@@ -12587,7 +12637,7 @@
     (pin "6" (uuid 464da95a-bc26-46f6-b1e6-b91a1090bd5c))
     (pin "7" (uuid c04f8427-daea-4aca-a476-39f51a653baf))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U4") (unit 3)
         )
@@ -12613,7 +12663,7 @@
     (pin "1" (uuid 40319111-368c-48db-a807-a866b36dea05))
     (pin "2" (uuid 47fb3f07-1a47-4f45-b720-47d25a341ee0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R51") (unit 1)
         )
@@ -12639,7 +12689,7 @@
     (pin "1" (uuid 36c5cf3e-c574-4723-aa30-23c18a06a06c))
     (pin "2" (uuid 2828fb69-8769-431a-b3f1-ccc79a790850))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R79") (unit 1)
         )
@@ -12664,7 +12714,7 @@
     )
     (pin "1" (uuid 60102c20-0e0a-4a00-b438-e1165d0f9b58))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12689,7 +12739,7 @@
     )
     (pin "1" (uuid 3edbe2a6-e93f-444d-ab9d-fbfd69be4a4b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12715,7 +12765,7 @@
     (pin "1" (uuid 89a9f585-7d96-4239-87fe-88debdad8a14))
     (pin "2" (uuid cad02c24-c6e7-4fc4-b9b4-0199e62b609e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R77") (unit 1)
         )
@@ -12741,7 +12791,7 @@
     (pin "1" (uuid 5e6e0875-3eb9-4f06-ad7a-6eed825ed7ca))
     (pin "2" (uuid 35979eb7-74f6-4629-8736-a9f87a2ed7c9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R22") (unit 1)
         )
@@ -12766,7 +12816,7 @@
     )
     (pin "1" (uuid 6f7efc0c-aaa3-4812-99e7-1ff99dfe42bf))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12791,7 +12841,7 @@
     )
     (pin "1" (uuid 8bab59b2-f9bc-40e0-9425-33a8dc276c00))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12823,7 +12873,7 @@
     (pin "4" (uuid 40843902-25d4-4918-b2db-a7bfb8933a8a))
     (pin "8" (uuid 237166e7-a280-4bbc-9db6-df282089d84d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U10") (unit 2)
         )
@@ -12848,7 +12898,7 @@
     )
     (pin "1" (uuid aeed0af6-b907-4f87-b2aa-6e1761bacc87))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12873,7 +12923,7 @@
     )
     (pin "1" (uuid e99dd619-e741-4225-ae26-a4a7a898c6dc))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12899,7 +12949,7 @@
     (pin "1" (uuid d3cb5cb5-68db-4019-98c0-dd675750c9db))
     (pin "2" (uuid 9f7cfafa-a19f-43a0-9ff8-59427a77e80b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R10") (unit 1)
         )
@@ -12924,7 +12974,7 @@
     )
     (pin "1" (uuid ad1fc0ed-3c6b-47ba-91b3-336ca90a9e2a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -12950,7 +13000,7 @@
     (pin "1" (uuid 9efffae9-1e91-49d1-8d14-013cb74f6947))
     (pin "2" (uuid 584d8784-0022-4470-b3e7-8df88251eba6))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C26") (unit 1)
         )
@@ -12976,7 +13026,7 @@
     (pin "1" (uuid e621d3aa-9ae3-4b69-9b10-5fa516ef99e5))
     (pin "2" (uuid 3a4d32d3-d673-4558-b85f-2698c6142d8b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R45") (unit 1)
         )
@@ -13002,7 +13052,7 @@
     (pin "1" (uuid ddf7b551-9d44-4e8e-a8d4-e9d7297fa0e7))
     (pin "2" (uuid fd0244bc-2325-4db9-84fc-e402008d3c83))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C41") (unit 1)
         )
@@ -13028,7 +13078,7 @@
     (pin "1" (uuid 79c1d81f-3963-4692-928c-6c38160b75cc))
     (pin "2" (uuid 5016e630-8c6a-4a68-8a34-f7254023c322))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R7") (unit 1)
         )
@@ -13055,7 +13105,7 @@
     (pin "T" (uuid c84c4d7d-bfb3-4da2-a0e2-d356b501fdd3))
     (pin "TN" (uuid 7c2fa599-530f-4d18-a091-cd69cf1d8e11))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J18") (unit 1)
         )
@@ -13081,7 +13131,7 @@
     (pin "1" (uuid 2e01f358-83de-4f06-8e02-bfefd21eef60))
     (pin "2" (uuid 17d599dc-9045-45ef-9990-b9b3e441bc71))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R74") (unit 1)
         )
@@ -13106,7 +13156,7 @@
     )
     (pin "1" (uuid 56f6f09b-7691-46da-8563-4f303b28baad))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13132,7 +13182,7 @@
     (pin "1" (uuid 68ae49aa-b9d4-4981-86ee-55702a0a9162))
     (pin "2" (uuid 02778126-1c83-4689-9985-4562dae9bda3))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C30") (unit 1)
         )
@@ -13158,7 +13208,7 @@
     (pin "1" (uuid 17251b86-398b-4e60-935b-f0b6cf5ec369))
     (pin "2" (uuid 1582a75c-6e07-4020-bb5a-7a3e910e085e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R15") (unit 1)
         )
@@ -13184,7 +13234,7 @@
     (pin "1" (uuid f3c0ade0-f02c-4bb1-bb9b-815106238a53))
     (pin "2" (uuid 56b95bb7-dffa-4099-b03c-59975c09f7c9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R84") (unit 1)
         )
@@ -13216,7 +13266,7 @@
     (pin "6" (uuid 397db239-8442-4f3d-ba6f-168a8b736321))
     (pin "7" (uuid bd00a74f-9791-4d86-8591-943323c507eb))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U6") (unit 3)
         )
@@ -13241,7 +13291,7 @@
     )
     (pin "1" (uuid 7e84a86c-344e-412a-af37-fd5ad45303ac))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13279,7 +13329,7 @@
     (pin "12" (uuid 2e3b3798-8b87-4cd5-97dd-d3061585e7c9))
     (pin "3" (uuid ddf59759-74b6-4653-8170-68c3f0f256ed))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U1") (unit 3)
         )
@@ -13305,7 +13355,7 @@
     (pin "1" (uuid b163a660-a656-4c2c-8e8a-fac3a7c24313))
     (pin "2" (uuid 8d5c0c97-82b4-4b33-bcab-6c1844d946e0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C24") (unit 1)
         )
@@ -13331,7 +13381,7 @@
     (pin "1" (uuid 044f7b60-f9ae-4a91-be07-629ae112f91a))
     (pin "2" (uuid 809593a0-b7eb-4fc7-a9cb-025df949cca8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C25") (unit 1)
         )
@@ -13356,7 +13406,7 @@
     )
     (pin "1" (uuid 49bb683a-ee4b-4edd-807f-e484c793a072))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13382,7 +13432,7 @@
     (pin "1" (uuid 1da2f94a-d4cb-44cc-b377-da9082055f75))
     (pin "2" (uuid 237f5ac5-0e63-434f-9d6c-15a046650919))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW5") (unit 1)
         )
@@ -13414,7 +13464,7 @@
     (pin "4" (uuid c5fb58e1-44e4-4c67-8ac0-be9030a46d65))
     (pin "8" (uuid cecf3d7a-39c0-4e34-8d75-561587cfc1db))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U10") (unit 1)
         )
@@ -13440,7 +13490,7 @@
     (pin "1" (uuid fa2829b2-c22e-423c-a8d7-235598dcce57))
     (pin "2" (uuid ca7ca394-8303-40b7-8116-30b5bcdc6ac6))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R18") (unit 1)
         )
@@ -13466,7 +13516,7 @@
     (pin "1" (uuid 89fade08-5a0a-42fa-9953-9341869890e2))
     (pin "2" (uuid 45925918-7ccb-42fd-9fdc-9f8784fe9837))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R91") (unit 1)
         )
@@ -13491,7 +13541,7 @@
     )
     (pin "1" (uuid 148c226e-ea23-4563-87df-1111fed076c0))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13517,7 +13567,7 @@
     (pin "1" (uuid f28d58d0-1fb9-4308-8b58-3a34cec4db6e))
     (pin "2" (uuid 74e54c02-45f9-420d-9b1f-fb92983ea78f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C6") (unit 1)
         )
@@ -13543,7 +13593,7 @@
     (pin "1" (uuid 1b55cbfc-be0b-4b54-ae53-487e2ec33ecc))
     (pin "2" (uuid ca28f5cd-5084-4833-a516-82da42a939cf))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C21") (unit 1)
         )
@@ -13569,7 +13619,7 @@
     (pin "1" (uuid 0b7ed3d3-fe1d-4b6f-be1a-a7f71b2528cc))
     (pin "2" (uuid 25b2668a-e057-47a8-8d29-29f42512cd02))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R80") (unit 1)
         )
@@ -13595,7 +13645,7 @@
     (pin "1" (uuid af3c5b92-6adc-4b5a-b469-22785ab7b0b1))
     (pin "2" (uuid 8ceb4977-76ef-4e34-817a-887f98f4e2ff))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R89") (unit 1)
         )
@@ -13621,7 +13671,7 @@
     (pin "1" (uuid 6a21efa6-5663-4456-9e7c-e2692e923ecf))
     (pin "2" (uuid 56cf07a2-050c-47fe-a283-cacd5436e682))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C1") (unit 1)
         )
@@ -13648,7 +13698,7 @@
     (pin "T" (uuid f3ab173c-316b-40f0-bbfe-2d29ee6abf24))
     (pin "TN" (uuid f6669634-4682-4d3f-ae63-a77f8efbeb45))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J7") (unit 1)
         )
@@ -13673,7 +13723,7 @@
     )
     (pin "1" (uuid 364fc2ac-0119-46c9-bdae-3dc72ce080aa))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13698,7 +13748,7 @@
     )
     (pin "1" (uuid c3269389-b21e-437e-ab04-45f51b98850b))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13723,7 +13773,7 @@
     )
     (pin "1" (uuid 96dc7f83-f26b-489a-8bcb-4d5e9e706454))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13748,7 +13798,7 @@
     )
     (pin "1" (uuid a026cee4-0cbd-440f-a949-c00ea1df6d2c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13774,7 +13824,7 @@
     (pin "1" (uuid 5411778d-d31e-4e29-ac5d-bf521b6a0851))
     (pin "2" (uuid e6eace85-9df1-455f-aad5-627c7028bcfe))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C40") (unit 1)
         )
@@ -13800,7 +13850,7 @@
     (pin "1" (uuid 19d621f7-6566-4b66-bea7-5b7c7b78836d))
     (pin "2" (uuid 31c570f0-2530-42b6-b300-5daa762237d9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R53") (unit 1)
         )
@@ -13826,7 +13876,7 @@
     (pin "1" (uuid ba3074ec-ffc0-4ba5-9ac2-05d1c5598054))
     (pin "2" (uuid 3ff402e4-2a46-49a9-b847-77176e46c992))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R48") (unit 1)
         )
@@ -13851,7 +13901,7 @@
     )
     (pin "1" (uuid 5bd7b9e1-9d1e-467b-ad08-8559619c5b70))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13877,7 +13927,7 @@
     (pin "1" (uuid fdb65cb3-fdf1-4fd1-b888-509d6a540613))
     (pin "2" (uuid fb37c040-700e-4e17-bd14-57629ca56f18))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R88") (unit 1)
         )
@@ -13902,7 +13952,7 @@
     )
     (pin "1" (uuid 30ad68f5-90c1-4855-9f03-c39361ca8093))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13927,7 +13977,7 @@
     )
     (pin "1" (uuid 37c08ca1-890d-460d-b6ee-40ce555b36a8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -13953,7 +14003,7 @@
     (pin "1" (uuid ada13ea0-db8b-4db6-a738-16fbf191b43c))
     (pin "2" (uuid 62bffd1b-6d94-43fd-a3c6-c4291fe7004c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C4") (unit 1)
         )
@@ -13978,7 +14028,7 @@
     )
     (pin "1" (uuid e922fb39-6622-4582-8f65-e0b1ac87db1e))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14004,7 +14054,7 @@
     (pin "1" (uuid 564304f1-44b0-4d76-99d2-57912cf67a2f))
     (pin "2" (uuid b95cf37c-654d-489a-853a-72e5854049e9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R11") (unit 1)
         )
@@ -14015,11 +14065,11 @@
   (symbol (lib_id "Connector_Generic:Conn_01x16") (at 22.86 379.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29b36c8-71db-4454-a128-22a25f1483b5)
-    (property "Reference" "J?" (at 22.86 349.25 0)
+    (property "Reference" "J27" (at 22.86 358.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x16" (at 22.86 358.14 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "" (at 22.86 379.73 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -14044,9 +14094,9 @@
     (pin "8" (uuid 8ea6b8b2-a9ac-4e4c-b9a4-1eb4da71e1db))
     (pin "9" (uuid 9f2af109-f7ca-47ba-8b6a-e68d7f90b30a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "J?") (unit 1)
+          (reference "J27") (unit 1)
         )
       )
     )
@@ -14070,7 +14120,7 @@
     (pin "1" (uuid 84af4769-bba6-4f40-975e-535b1d706144))
     (pin "2" (uuid 13d87f15-6882-4a21-9de2-6188860a266d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R65") (unit 1)
         )
@@ -14102,7 +14152,7 @@
     (pin "4" (uuid 436ac201-1061-46c5-8378-100800ec0fa0))
     (pin "8" (uuid ceeacaae-7671-47b5-a55e-4742fae01dc2))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U3") (unit 2)
         )
@@ -14128,7 +14178,7 @@
     (pin "1" (uuid 55cbcacd-4b9c-4ca7-bbd1-0cb5f6c1e13c))
     (pin "2" (uuid 44285b1a-b1a7-4efd-80e9-9d372b60b9e2))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C35") (unit 1)
         )
@@ -14154,7 +14204,7 @@
     (pin "1" (uuid ac1c2fd7-6375-4f9f-b0f3-a1aebe3d21a6))
     (pin "2" (uuid 2f45fcb5-fce0-4221-a86f-37517bffac5f))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C11") (unit 1)
         )
@@ -14180,7 +14230,7 @@
     (pin "1" (uuid dbdcba4f-b805-46a8-895c-c0834124e7cc))
     (pin "2" (uuid 4e13dd8f-0161-4e0a-8543-345ee2d06c4a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C10") (unit 1)
         )
@@ -14206,7 +14256,7 @@
     (pin "1" (uuid 3611b1ce-ea6a-43fd-9c32-c6f1616a9d83))
     (pin "2" (uuid f778f961-de26-461e-8ced-36dffb3a3f88))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R30") (unit 1)
         )
@@ -14232,7 +14282,7 @@
     (pin "1" (uuid cded7422-9f8d-4f0c-b8ad-7b6f9c959dcc))
     (pin "2" (uuid ddbe3287-8671-4c7e-b785-e12b809fa1a8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C32") (unit 1)
         )
@@ -14259,7 +14309,7 @@
     (pin "T" (uuid b0c0e24f-2725-4250-8dbe-498147f50256))
     (pin "TN" (uuid 78a73653-7238-4d3f-a46a-70aea4f43ed7))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "J5") (unit 1)
         )
@@ -14285,7 +14335,7 @@
     (pin "1" (uuid cf340aa5-f06f-4dcd-9c6a-d0c00ec60dc3))
     (pin "2" (uuid 945b9f07-1806-4fc1-827d-1d618ed7837a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R101") (unit 1)
         )
@@ -14311,7 +14361,7 @@
     (pin "1" (uuid 9141d5c3-bb77-4d46-8282-36dd5c28fbe8))
     (pin "2" (uuid 540ee6f4-55fb-4c3a-9672-fe5b859e2b8a))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C12") (unit 1)
         )
@@ -14336,7 +14386,7 @@
     )
     (pin "1" (uuid cd15aaab-c917-49ca-8963-fbd94439c60c))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14362,7 +14412,7 @@
     (pin "1" (uuid 82a23d2d-0195-4e63-b77a-cad58cd8c092))
     (pin "2" (uuid f21e736f-8cfd-49f9-aabb-0b3a33e40011))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R14") (unit 1)
         )
@@ -14387,7 +14437,7 @@
     )
     (pin "1" (uuid 1dfd3f2c-1b0a-4374-9abb-2df26af33ac4))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14412,7 +14462,7 @@
     )
     (pin "1" (uuid 419a2e42-9298-415b-ab4e-0aa7ebda1a5d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14437,7 +14487,7 @@
     )
     (pin "1" (uuid ed728a9d-63b6-44a1-9630-8c3a80b330e8))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14463,7 +14513,7 @@
     (pin "1" (uuid 433d635b-b375-44c3-a45b-5353d1b536ca))
     (pin "2" (uuid c13e75a4-a5c3-4293-b4e4-8bd04fb36472))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R36") (unit 1)
         )
@@ -14489,7 +14539,7 @@
     (pin "1" (uuid 813620b2-b3f2-4150-9aa5-00cdad35841b))
     (pin "2" (uuid 283f4bc5-39b0-48f3-984e-1429e484f539))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "C49") (unit 1)
         )
@@ -14514,7 +14564,7 @@
     )
     (pin "1" (uuid d3f2a2ba-358d-4ad7-9bc9-899226bb8bc5))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14546,7 +14596,7 @@
     (pin "4" (uuid 90cd741c-c5db-4a60-a216-4be8463e565c))
     (pin "8" (uuid 5c69043d-b109-4825-b67f-d2e143c4e6b2))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U6") (unit 1)
         )
@@ -14578,7 +14628,7 @@
     (pin "4" (uuid 2a4485ea-45f1-426b-8148-90860f48c8d0))
     (pin "8" (uuid a5d970a8-a0d3-4db5-be4e-6f9e4a8b5563))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "U3") (unit 1)
         )
@@ -14603,7 +14653,7 @@
     )
     (pin "1" (uuid 78eb56a4-3e62-4f62-8f9d-482117370a3d))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14629,7 +14679,7 @@
     (pin "1" (uuid 8d29b3c2-b0a4-4ee9-9474-7e8859b146ba))
     (pin "2" (uuid 89dd1c25-0ca9-44e9-9838-67667ea47e89))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "SW1") (unit 1)
         )
@@ -14654,7 +14704,7 @@
     )
     (pin "1" (uuid 7c13022b-418e-4305-8a2d-79198e9b8d01))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
@@ -14680,9 +14730,34 @@
     (pin "1" (uuid 7de4584b-983a-4cbd-85c2-d7734b57d379))
     (pin "2" (uuid 6680177b-e600-4a75-9e16-3b9407058b20))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "R82") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 285.75 383.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fefe29be-9745-4020-b699-60354e104281)
+    (property "Reference" "#PWR02" (at 285.75 389.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 285.75 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 285.75 383.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 285.75 383.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7fbf4fbb-9a75-4ec0-800d-bc5d37809b2a))
+    (instances
+      (project "analog_rev3"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -14705,7 +14780,7 @@
     )
     (pin "1" (uuid 8472fde0-bd25-4be0-bcd6-6195845166e9))
     (instances
-      (project "t41_rev3"
+      (project "analog_rev3"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR?") (unit 1)
         )
