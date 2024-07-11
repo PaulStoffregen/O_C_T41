@@ -6205,7 +6205,7 @@
     (uuid f9144a00-2d79-44f1-8328-530cb1fec16d)
   )
 
-  (label "ADC_SCK" (at 72.39 186.69 0) (fields_autoplaced)
+  (label "DAC_CS" (at 72.39 186.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0f8031c2-a3f6-4955-963e-b65419c289f6)
   )
