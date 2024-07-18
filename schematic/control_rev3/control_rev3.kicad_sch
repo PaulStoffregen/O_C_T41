@@ -11799,7 +11799,7 @@
   (symbol (lib_id "Device:R_US") (at 295.91 490.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7a6d53b-643f-48e5-bc64-a58d8dc02630)
-    (property "Reference" "R119" (at 295.91 483.87 90)
+    (property "Reference" "R118" (at 295.91 483.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 295.91 486.41 90)
@@ -11816,7 +11816,7 @@
     (instances
       (project "control_rev3"
         (path "/f666d35b-d6a1-4bcd-8ace-0f923f42ac67"
-          (reference "R119") (unit 1)
+          (reference "R118") (unit 1)
         )
       )
     )
