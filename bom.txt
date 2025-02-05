@@ -65,6 +65,9 @@ U6-U9					4	IC, Dual Opamp, SOIC8, OPA2172 (TI) or GS2262-SR (Gainsil)
 U10					1	IC, Dual Opamp, SOIC8, MCP6022
 U11					1	IC, Dual Opamp, SOIC8, LM833
 			U12		1	Teensy 4.1 (with headers and sockets)
+					2	24 pin headers
+					2	24 pin sockets - CRITICAL: USE A SOCKET so Teensy is replaceable!
+					?	IC, optional PSRAM, APS6404L_3SQR, https://www.pjrc.com/store/psram.html
 			U13		1	IC, Buck Converter, LMR54406FDBVR (do not use LMR54406DBVR)
 			U14		1	IC, LDO 5V, LP2985A-50DBVRM3 or LP2985A-50DBVR or LP2985-50DBVR
 			U15		1	IC, LDO 3.3V, TPS7A2033PDBVR or ADP150-3.3
