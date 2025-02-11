@@ -1,5 +1,10 @@
 Preliminary Info - CAUTION: may change!
 
+Additional BOM pages with more info:
+  https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=61d2510573
+  https://docs.google.com/spreadsheets/d/1lMKtp5o-q9ivLl7gmPvncQ6gjRCvjwu5SlCP15zF1qo/edit?usp=sharing
+
+
 Analog Board		Control Board	Qty	Part
 ------------		-------------	---	----
 C34-C41			C92		9	Capacitor 22pF, NP0, 5%, 0805   CC0805JRNPO9BN220
