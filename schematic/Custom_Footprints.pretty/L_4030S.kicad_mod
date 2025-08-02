@@ -1,0 +1,142 @@
+(footprint "L_4030S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd6b47e3-10bf-4ca8-9978-3cd663033f02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_4030S"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3325698-a272-4f4a-a881-f6aa31a8554b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeb9cadc-d836-4c8b-9cd2-c72c9a5d0609")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6744f953-0585-4b98-a449-dd6c9c746cfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.99903 -4.75031)
+		(end -1.99903 -4.24993)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bbaaa359-e7a9-4742-820e-eb65c71b8beb")
+	)
+	(fp_line
+		(start -1.99903 -1.25019)
+		(end -1.99903 -0.74981)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6ad03148-b989-41f8-b077-156a51de7547")
+	)
+	(fp_line
+		(start -1.99903 -0.74981)
+		(end 2.00147 -0.74981)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1090cc94-5d8f-44e1-9780-b047158af3a7")
+	)
+	(fp_line
+		(start 2.00147 -4.75031)
+		(end -1.99903 -4.75031)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "9ec9ac32-c8b2-4056-bda7-04c91842d70b")
+	)
+	(fp_line
+		(start 2.00147 -4.24993)
+		(end 2.00147 -4.75031)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a6550141-1b02-4a41-8f69-0cc3f6629868")
+	)
+	(fp_line
+		(start 2.00147 -0.74981)
+		(end 2.00147 -1.25019)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "5abe3085-17b4-4800-8db2-a6b234372c33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8c6b7cb-74fa-4545-835f-cfdcdf9002a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.9 -2.75)
+		(size 1.3999 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b5762464-c2ad-4afc-8791-e879e6c89d50")
+	)
+	(pad "2" smd rect
+		(at 1.901227 -2.750008)
+		(size 1.402254 2.499978)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "569c1fd7-c0aa-4596-9134-599cadae69f8")
+	)
+	(embedded_fonts no)
+)
