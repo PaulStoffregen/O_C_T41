@@ -1,0 +1,434 @@
+(footprint "Diode_Bridge_reduced"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "8.1x10.5mm, 4A, single phase bridge rectifier, https://www.bourns.com/docs/Product-Datasheets/CD-DF4xxSL.pdf")
+	(tags "Surface Mount Bridge Rectifier Diode")
+	(property "Reference" "D1"
+		(at 0 -4.54 0)
+		(layer "F.SilkS")
+		(uuid "a396ffd5-a930-4915-b6aa-0f3dc8e7c7cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HD01-T"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "e3a9d463-e9cd-4c61-8c6c-86f69a139b0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6c365ad-4260-4972-937a-587f931b2878")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6686113-90ba-4619-aebe-5f97eaafee7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9045 -2.36452)
+		(end -0.7615 -2.36452)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e68eb74-e2e2-4ad5-bcdc-cdca2bcb712f")
+	)
+	(fp_line
+		(start -1.9045 2.35988)
+		(end -1.9045 -2.36452)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23aa942f-6d89-48fd-bbb1-8d2b6cdb6b89")
+	)
+	(fp_line
+		(start -0.77166 -1.50092)
+		(end -0.77166 -0.77448)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ac0ec0e-e2e9-486f-87f7-254c5d1d3da0")
+	)
+	(fp_line
+		(start -0.77166 0.49806)
+		(end -0.77166 1.22704)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc04271b-129c-4dc3-aaf5-11240d37efb0")
+	)
+	(fp_line
+		(start -0.73356 -2.15624)
+		(end -0.7615 -2.36452)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74874bae-48d0-4fea-9b08-e72cacee133e")
+	)
+	(fp_line
+		(start -0.6472 -1.95812)
+		(end -0.73356 -2.15624)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f38e5f95-7f78-4f68-a639-442811c6fa88")
+	)
+	(fp_line
+		(start -0.50496 -1.79302)
+		(end -0.6472 -1.95812)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e3310a4-e2b4-4075-94b0-ea7b52c2f997")
+	)
+	(fp_line
+		(start -0.32208 -1.67364)
+		(end -0.50496 -1.79302)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f06c0ea-8e62-4043-9f34-9728b6c209b6")
+	)
+	(fp_line
+		(start -0.27128 -1.1377)
+		(end -1.2695 -1.1377)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de74eea8-e1a9-483c-bf6a-4ddc6b44667a")
+	)
+	(fp_line
+		(start -0.1138 -1.61014)
+		(end -0.32208 -1.67364)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df91f694-bb92-4810-958b-5fe0acf9d7d5")
+	)
+	(fp_line
+		(start 0.1021 -1.6076)
+		(end -0.1138 -1.61014)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20114ce3-93b9-486f-bb51-5640b74ce8fe")
+	)
+	(fp_line
+		(start 0.31292 -1.66856)
+		(end 0.1021 -1.6076)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c469a53-5f67-4aa2-a3c3-e28022b11cc8")
+	)
+	(fp_line
+		(start 0.4958 -1.7854)
+		(end 0.31292 -1.66856)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0517248c-147e-4591-9ccc-2997ecc3ae68")
+	)
+	(fp_line
+		(start 0.63804 -1.9505)
+		(end 0.4958 -1.7854)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92bae1bf-7705-4fd1-b0c6-42e1b1f0ffb8")
+	)
+	(fp_line
+		(start 0.72948 -2.14862)
+		(end 0.63804 -1.9505)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "518788e2-5c62-492a-af9f-b3593350b915")
+	)
+	(fp_line
+		(start 0.7625 -2.36452)
+		(end 0.72948 -2.14862)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e03851e-62e1-4243-abdf-41eeefd8eed7")
+	)
+	(fp_line
+		(start 0.7625 -2.36452)
+		(end 1.9055 -2.36452)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19de44e6-9b82-42d6-9613-6b5cffeb735e")
+	)
+	(fp_line
+		(start 1.03174 -1.08436)
+		(end 1.03174 -0.92942)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d54ca3d-47d0-4d55-a76c-74de7d7b10c7")
+	)
+	(fp_line
+		(start 1.03174 -0.92942)
+		(end 1.17398 -0.82528)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae972133-c45c-4a76-970b-101812eb4348")
+	)
+	(fp_line
+		(start 1.03174 0.91462)
+		(end 1.03174 1.06956)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c820c26-fba1-45bf-aeb3-715a02b859b8")
+	)
+	(fp_line
+		(start 1.03174 1.06956)
+		(end 1.17398 1.1737)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab63e85f-d800-447f-b63e-6cf47c863ce2")
+	)
+	(fp_line
+		(start 1.10286 -1.50092)
+		(end 1.2451 -1.39678)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6303b74-1411-41cc-bc08-91ad8b5d537e")
+	)
+	(fp_line
+		(start 1.10286 0.49806)
+		(end 1.2451 0.6022)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4649eecd-70a6-47fc-8fa6-e8165cdebdf6")
+	)
+	(fp_line
+		(start 1.2451 -1.39678)
+		(end 1.2451 -1.24184)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e54cafd-70a0-40e4-b517-6567d934732e")
+	)
+	(fp_line
+		(start 1.2451 -1.24184)
+		(end 1.03174 -1.08436)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67302651-7769-4a9a-94e4-aad3f14c8527")
+	)
+	(fp_line
+		(start 1.2451 0.6022)
+		(end 1.2451 0.75968)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "559424ad-27a6-43e1-ba3c-bd1fc9c95a28")
+	)
+	(fp_line
+		(start 1.2451 0.75968)
+		(end 1.03174 0.91462)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57d29ce0-efda-49de-a4df-54998c049465")
+	)
+	(fp_line
+		(start 1.9055 -2.36452)
+		(end 1.9055 2.35988)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "083a2d4a-8d38-4d2a-92d7-57b79f977f58")
+	)
+	(fp_line
+		(start 1.9055 2.35988)
+		(end -1.9045 2.35988)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dd31650-4f50-4e95-a415-4f5e2385c967")
+	)
+	(fp_line
+		(start -4.5 -3)
+		(end 4.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8164103c-1365-47f4-8e70-435937da48d7")
+	)
+	(fp_line
+		(start -4.5 3)
+		(end -4.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c639162-92fd-4bf2-8d16-da4e59243540")
+	)
+	(fp_line
+		(start 4.5 -3)
+		(end 4.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a98df613-c3c4-43b2-b2ab-79868705d32f")
+	)
+	(fp_line
+		(start 4.5 3)
+		(end -4.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b3a8796-a34d-4b91-8aad-44427b76a863")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.99 0)
+		(layer "F.Fab")
+		(uuid "1af0fa6f-7210-442a-8751-757729899a9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.1745 -1.252)
+		(size 1.651 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60f61e4c-2546-45c2-a1dd-4f2769f0a0d5")
+	)
+	(pad "2" smd rect
+		(at -3.1745 1.2499)
+		(size 1.651 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6cf1c006-4dca-490b-9c3f-a1213cc77917")
+	)
+	(pad "3" smd rect
+		(at 3.1755 -1.252)
+		(size 1.651 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b787e56f-3d97-4ddc-9945-3f4583b6f8cf")
+	)
+	(pad "4" smd rect
+		(at 3.1755 1.2499)
+		(size 1.651 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aded3178-6936-4da2-8b8a-20bc9eb0c4e7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Bourns_CD-DF4xxS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
