@@ -59,7 +59,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_to_hole|38090800|85090000|80935d62-4842-4935-ba79-617009c9a102|ae408cfc-eb39-4751-b3bb-441c919c4584",
+          ""
+        ],
+        [
+          "hole_to_hole|38097400|128270000|a223f951-2d03-4751-9fa8-97900344dc33|f9e91859-2a41-4f7a-8daf-9690a2d055ca",
+          ""
+        ],
+        [
+          "hole_to_hole|38102600|106680000|d010ef12-7bee-4b4e-8c81-886406201f0a|e5798ef8-9a38-4a8c-8d43-72108fd90382",
+          ""
+        ],
+        [
+          "hole_to_hole|38102600|116840000|b6507a46-ca60-440e-bce5-4f3d81759a08|d9414dca-8a51-45d6-9d33-57555bba99af",
+          ""
+        ],
+        [
+          "hole_to_hole|38102600|95250000|14276ea7-3107-4f69-b040-bc2318514439|b743dfc3-2677-4ea8-b4eb-f513c10d40ae",
+          ""
+        ],
+        [
+          "hole_to_hole|63497400|128270000|2130d843-edf4-4c34-bb1a-9d580753defc|d8fe1668-15fa-4f44-9a19-3eb189bac9f5",
+          ""
+        ],
+        [
+          "hole_to_hole|63502600|106680000|32627fca-7a13-4e32-b78d-9eb7a62ca147|c25505c3-0c19-4b0a-b82a-7bf759000da0",
+          ""
+        ],
+        [
+          "hole_to_hole|63502600|116840000|a5919367-3ed5-401b-831a-4134d3d6d99a|fa62385f-26f6-4a10-8775-fdcf5d03ff43",
+          ""
+        ],
+        [
+          "hole_to_hole|63502600|85090000|46809a29-d6f0-434a-9d95-1f66e0880023|59fd3a28-fe22-4d31-bbe0-5f44a9c21267",
+          ""
+        ],
+        [
+          "hole_to_hole|63502600|95250000|4a57feb3-0f76-46a6-a2c9-ad0d903b00b4|d99aa3fb-1ba8-4597-a611-25ce7de9f526",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -508,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../pcb/gerber/",
+      "plot": "../../pcb/gerber/export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

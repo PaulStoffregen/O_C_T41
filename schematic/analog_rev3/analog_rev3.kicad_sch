@@ -16991,7 +16991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(property "Footprint" "Custom_Footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_reduced"
 			(at 125.73 166.37 0)
 			(effects
 				(font
@@ -18739,7 +18739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(property "Footprint" "Custom_Footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_reduced"
 			(at 207.01 165.1 0)
 			(effects
 				(font
@@ -20109,7 +20109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(property "Footprint" "Custom_Footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_reduced"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -21057,7 +21057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(property "Footprint" "Custom_Footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_reduced"
 			(at 289.56 165.1 0)
 			(effects
 				(font
