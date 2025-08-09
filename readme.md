@@ -52,13 +52,25 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer
 
 # External Trigger
 
+Normally the 4 trigger inputs are connected (shared) to CV1-CV4.
+
+
 ![](pcb/external_triggers.png)
+
+You can modify the hardware to separate the triggers from CV1-CV4.
+
+Cut JP1-JP4 apart to disconnect the triggers from CV1-CV4.  Then
+wire external trigger jacks to J24 and J25.  100K resistors are
+also recommended between each trigger input and GND, to prevent
+false triggering when the cable is "floating".
+
+![](docs/ext_trigger_pcb2.png)
 
 ![](docs/ext_trigger_pcb.png)
 
-![](docs/ext_trigger_schematic.png)
-
 ![](docs/ext_trigger_schematic_default.png)
+
+![](docs/ext_trigger_schematic.png)
 
 
 
