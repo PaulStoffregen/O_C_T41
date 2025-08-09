@@ -72,7 +72,7 @@ wire external trigger jacks to J24 and J25.  100K resistors are
 also recommended between each trigger input and GND, to prevent
 false triggering when the cable is "floating".
 
-![](docs/ext_trigger_pcb2.png)
+![](docs/ext_trigger_pcb2.jpg)
 
 ![](docs/ext_trigger_pcb.png)
 
