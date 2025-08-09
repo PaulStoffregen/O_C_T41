@@ -10,4 +10,15 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed.  Best t
 
 If you build hardware using these Rev 3 files, **USE A SOCKET** between Teensy and the CPU board.
 
+![](/docs/rev_beta3_build2_july2024.jpg)
+
+![](/docs/rev3_beta_build_july2024.jpg)
+
+# Test Point Voltages
+
+![](/docs/rev3_test_point_voltages.png)
+
+![](/docs/rev_beta3_build3_july2024.jpg)
+
+
 

@@ -31,8 +31,12 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer
 
 ![](docs/midi_din5_wiring.png)
 
+![](docs/midi_din5_wiring2.jpg)
+
 
 # USB Host
+
+![](docs/usb_host_teensy41.jpg)
 
 ![](docs/usb_host_right_angle_header.jpg)
 
@@ -41,6 +45,10 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer
 ![](docs/usb_host_midi_LPD8.jpg)
 
 [USB Host Cable at SparkFun](https://www.sparkfun.com/usb-host-cable-for-teensy-4-1-and-teensy-3-6.html)
+
+[USB Device Cable at AdaFruit](https://www.adafruit.com/product/937)
+
+![](docs/expansion_panel_back.jpg)
 
 
 # Additional Memory
