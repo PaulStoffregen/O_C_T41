@@ -38,6 +38,10 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer
 
 ![](docs/usb_host_gamepad.jpg)
 
+![](docs/usb_host_midi_LPD8.jpg)
+
+[USB Host Cable at SparkFun](https://www.sparkfun.com/usb-host-cable-for-teensy-4-1-and-teensy-3-6.html)
+
 
 # Additional Memory
 
