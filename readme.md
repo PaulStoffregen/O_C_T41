@@ -1,6 +1,18 @@
-Preliminary Info - CAUTION: may change! (it has indeed changed, need to update)
+# O_C T4.1 - Ornament and Crime with Teensy 4.1
 
-![Front Panel With Descriptions](docs/front_panel_desc.png)
+![](docs/main_with_expansions.jpg)
+
+
+TODO - add short history here
+
+
+
+
+![](docs/block_diagram.png)
+
+
+TODO - explain technical stuff a bit...
+
 
 
 # Attribution ShareAlike
