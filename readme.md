@@ -2,17 +2,35 @@
 
 ![](docs/main_with_expansions.jpg)
 
-
-TODO - add short history here
-
-
-
+While porting the Ornament and Crime code to run on Teensy 4, the question kept
+coming up "what can a 600 MHz processor let me do".  Turns out the extra memory
+allows Phazerville firmware to support all applets in a single image.  But the
+original hardware designed for Teensy 3.2 limits what Teensy 4.0 can do.  The
+necessity to share a single SPI port's bandwidth between the display and DAC
+chip is the main limit.
 
 ![](docs/block_diagram.png)
 
+O_C T4.1 was born to allow Teensy 4.1 to be fully utilized by Phazerville
+firmware.  Control Voltage (CV) input and output was doubled to 8 signals.
+An ADC chip was added for higher quality CV input, free from the on-chip
+digital noise of a CPU.  Most importantly, three fully independent SPI port
+are used for the display, CV inputs, and CV outputs.  Technically, the CV
+input SPI is "FlexIO" which adds control of an analog mux chip.  All 3 have
+fully independent bandwidth.
 
-TODO - explain technical stuff a bit...
+Audio input and output were also added, using fully independent bandwidth
+of the I2S (digital audio) port.  Serial for MIDI, 480 Mbit/sec USB host,
+and I2C for future expansion are also available on connectors meant for
+expansion modules.
 
+Additional memory can be added to Teensy 4.1, in the form of a PSRAM chip
+give extra memory useful for audio effects, and a SD card for non-volatile
+storage.  As with everything else, these have fully independent bandwidth.
+Everything has optimal access for Teensy 4.1.  Phazerville leverages
+optimized drivers with Direct Memory Access (DMA) for all of these peripherals.
+O_C T4.1 truly is optimized to let Ornament and Crime make the most of
+the powerful Teensy 4.1 processor!
 
 
 # Attribution ShareAlike
