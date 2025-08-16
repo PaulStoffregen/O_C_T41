@@ -60,11 +60,16 @@ Audio input clipping on 1 channel distorts other channel input - TODO: document 
 Control board should allow more clearance for external trigger headers / wires
 
 
-# Changes:
+# Changes
 
-Diode D6 added to protect U17 during unusual power startup.
+Thanks to recent work by Beau Seidon, the files are now fully converted to KiCad for easier
+editing to spin your own design.  Diode D6 added to protect U17 during unusual power startup.
+Gerber files o_c_3_analog_new_jlc.zip and o_c_3_cpu_new_jlc.zip have been built and tested,
+so you can simply build from known-good files.  Or you can use the KiCad files to make your
+own design.
 
 Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer Phazerville firmware.
+
 
 # MIDI
 

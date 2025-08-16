@@ -1,5 +1,7 @@
 # Update
 
+One set of boards made from the new gerber files (o_c_3_analog_new_jlc.zip and o_c_3_cpu_new_jlc.zip) has been verified, except for the pushbuttons.  Everything worked (expect the pushbuttons weren't tested).  This message will be updated when Digikey delivers more pushbuttons.
+
 Diode D6 was added to protect U17 during unusual power startup conditions.  Use the "new" gerber files, or with the "old" files solder D6 on top of C59.
 
 Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed.  Best to leave these locations unpopulated.
