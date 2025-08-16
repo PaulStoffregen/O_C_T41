@@ -2,9 +2,22 @@ Preliminary Info - CAUTION: may change! (it has indeed changed, need to update)
 
 ![Front Panel With Descriptions](docs/front_panel_desc.png)
 
-## Rev 3 issues:
 
-C93 polarity is not indicated on silkscreen - fixed in new files
+# Attribution ShareAlike
+
+Huge thanks & credit to mxmxmx who designed to the original Ornament and Crime module
+so many years ago when Teensy 3.2 was new.
+
+In 2023 mxmxmx waived the non-commercial license term for O_C T4.1, so the open source
+license is now CC BY-SA 4.0.  Paul Stoffregen is not concerned about attribution,
+but any O_C T4.1 Ornament and Crime product should give appropriate credit to mxmxmx.
+
+If you see commercially sold O_C T4.1 without even a tiny footnote for attribution,
+please send the vendor a gentle and polite reminder that attribution to mxmxmx is
+required.
+
+
+# Rev 3 issues:
 
 Mounting holes for display may be slightly off
 
@@ -17,9 +30,9 @@ Audio input clipping on 1 channel distorts other channel input - TODO: document 
 Control board should allow more clearance for external trigger headers / wires
 
 
-## Changes:
+# Changes:
 
-Diode d6 added to protect U17 during unusual power startup.
+Diode D6 added to protect U17 during unusual power startup.
 
 Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer Phazerville firmware.
 
@@ -32,6 +45,39 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer
 ![](docs/midi_din5_wiring.png)
 
 ![](docs/midi_din5_wiring2.jpg)
+
+
+# Teensy Voltage and USB Host
+
+O_C T4.1 rev3 uses a switching power supply to step down +12V modular power to
+4.25V to run Teensy 4.1.  This voltage was chosen to reduce the load placed on
+your +12V modular power rail.
+
+However, when using USB host, Teensy 4.1 will supply about 4.1 volts to your
+USB device.  This is below the 4.4V requirement of the USB 2.0 specification,
+but most lower power USB devices which use a linear or step-down switcher to
+3.3V typically can work.
+
+If you want full 5 volt USB host power output, you have 2 options.
+
+The best option is a powered USB hub, which also gives you the ability to
+connect multiple USB devices!  If designing an add-on module, the USB hub chip
+and power delivered to USB device would be best sourced from the modular +5V
+power rail, generally meant for digital circuitry.  USB hub chips with
+"Multiple Transaction Translators" (MTT) give better performance than "Single
+Transaction Translator".  CH334 from WCH is a very low cost MTT hub chip
+to consider, usually in stock at LCSC.
+
+Or you can modify the O_C T4.1 power supply to provide 5V rather than 4.25V.
+The trade off is O_C T4.1 will consume more power, because Teensy 4.1 uses
+a linear regulator.  If using power hungry USB devices, they will also be
+powered via the modular +12V rail, generally meant for analog circuitry.
+The small step-down regulator on O_C T4.1 rev3 is limited to 600mA.  Teensy
+4.1 typically consumes 110mA, but if a SD card is used it will also draw
+current, leaving less available for USB devices.
+To modify for 5V, if using the old gerber files add D6 by soldering on top
+of C59.  Then increase R127 to 27K to change the power supply voltage.  If
+using MIDI OUT, change R139 and R140 to 120 ohms for proper MIDI current.
 
 
 # USB Host
