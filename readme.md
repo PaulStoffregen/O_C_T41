@@ -19,9 +19,9 @@ required.
 
 # Rev 3 issues:
 
-Mounting holes for display may be slightly off
-
-Mounting holes for display should enlarge slightly to allow M2 screws
+Solder pads (7 pins) for the display should be raised approximately 1mm, towards the
+top edge of the board.  To make the display fit, usually the 7 header pins need to
+be bent slightly.
 
 **3 beta testers had Teensy I/O pins damaged**, mostly encoders and pushbuttons.  If you build Rev 3, **USE A SOCKET** between Teensy and the CPU board.
 
