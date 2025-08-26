@@ -4,7 +4,8 @@
 
 While porting the Ornament and Crime code to run on Teensy 4, the question kept
 coming up "what can a 600 MHz processor let me do".  Turns out the extra memory
-allows Phazerville firmware to support all applets in a single image.  But the
+allows [Phazerville firmware](https://github.com/djphazer/O_C-Phazerville)
+to support all applets in a single image.  But the
 original hardware designed for Teensy 3.2 limits what Teensy 4.0 can do.  The
 necessity to share a single SPI port's bandwidth between the display and DAC
 chip is the main limit.
