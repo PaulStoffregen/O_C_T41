@@ -263,8 +263,8 @@ firmware.
 ## -5.0V (TP1)
 
 Analog CV Input Offset: All CV input amplifiers on the analog board
-use this offset voltage to convert Control Voltage (might can be
-positive or negative) to the positive-only range of the ADC input
+use this offset voltage to convert Control Voltage which can be
+positive or negative to the positive-only range of the ADC input
 chips (U17 and U18).  It is created from 2.5V REF by U26, R135, R138.
 
 Optionally R201 can be soldered to modify CV input voltage range.
