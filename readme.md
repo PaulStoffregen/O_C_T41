@@ -170,8 +170,12 @@ Use a DC voltmeter with the negative lead connected to AGND, then carefully
 touch the test points with the positive lead with care not to accidentally
 also touch nearby parts.
 
-Testing the voltages in this order usually makes the most sense.  Tests
-can be done with the analog board connected or removed.
+Tests can be done with the analog board connected or removed.  If signals
+which connect to the analog board read zero or a very low number, short
+circuits or other problems by be on the analog board.  Removing it and
+checking whether the voltage returns to normal may help localize the issue.
+
+Testing the voltages in this order usually makes the most sense.
 
 ## 11.2V and -11.2V (TP13 and TP12)
 
@@ -205,10 +209,12 @@ another configuration Phazerville firmware supports.
 
 Analog input power: this is the power input to voltage regulators
 which power sensitive analog circuitry.  It is created by diode
-D2 and C69, which runs warm during normal operation.  The exact voltage
-depends on your Eurorack power supply and D2.  Any voltage between
-6.7V to 5.5V is acceptable, because the analog voltage regulators
-will create the actual analog power from this unregulated input.
+D2 and C69.  The exact voltage depends on your Eurorack power supply
+and D2.  Any voltage between 6.7V to 5.5V is acceptable, because the
+analog voltage regulators will create the actual analog power from
+this unregulated input.
+
+Diode D2 runs warm during normal operation.
 
 ## 5.0V and 3.3V (TP10 and TP7)
 
