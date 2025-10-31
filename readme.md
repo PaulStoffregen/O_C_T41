@@ -172,8 +172,8 @@ also touch nearby parts.
 
 Tests can be done with the analog board connected or removed.  If signals
 which connect to the analog board read zero or a very low number, short
-circuits or other problems by be on the analog board.  Removing it and
-checking whether the voltage returns to normal may help localize the issue.
+circuits or other problems might be on the analog board.  Removing it and
+checking whether the voltages returns to normal may help localize the issue.
 
 Testing the voltages in this order usually makes the most sense.
 
@@ -203,7 +203,9 @@ you have built.  The voltage is created by R121 and R130.
 
 Optionally R202 can be soldered to increase the ID voltage.  Normally
 this would only be done if substantially modifying the hardware to
-another configuration Phazerville firmware supports.
+another configuration
+[Phazerville firmware](https://github.com/djphazer/O_C-Phazerville)
+supports.
 
 ## 6.1V (TP6)
 
