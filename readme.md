@@ -163,4 +163,115 @@ false triggering when the cable is "floating".
 ![](docs/ext_trigger_schematic.png)
 
 
+# Test Points For Troubleshooting
+
+The control board has 14 test points to help you diagnose hardware problems.
+Use a DC voltmeter with the negative lead connected to AGND, then carefully
+touch the test points with the positive lead with care not to accidentally
+also touch nearby parts.
+
+Testing the voltages in this order usually makes the most sense.  Tests
+can be done with the analog board connected or removed.
+
+## 11.2V and -11.2V (TP13 and TP12)
+
+These are your Eurorack power after passing through the D1 diodes which
+allow plugging the 10 pin power cable in either direction.  Normally
+you would expect to see a slightly smaller (absolute) number for 11.2V
+than -11.2V because more current is consumed from +12V.  But the actual
+numbers you see will depend on your Eurorack power supply.
+
+## 4.25V (TP5)
+
+Main input power for Teensy 4.1, the 1.3 inch display, and MIDI:
+This is created by U13, L1, L2, R126, R127, R128, R129, C53, C74, C92.
+
+## DIGITAL 3.3V (TP8)
+
+Main digital power: Teensy 4.1 creates this 3.3V power for digital
+circuitry using the 4.25V main power.
+
+## 0.1V (TP15)
+
+Identification voltage for O_C T4.1 rev 3 hardware: Phazerville
+firmware reads this voltage at startup to "know" which circuit board
+you have built.  The voltage is created by R121 and R130.
+
+Optionally R202 can be soldered to increase the ID voltage.  Normally
+this would only be done if substantially modifying the hardware to
+another configuration Phazerville firmware supports.
+
+## 6.1V (TP6)
+
+Analog input power: this is the power input to voltage regulators
+which power sensitive analog circuitry.  It is created by diode
+D2 and C69, which runs warm during normal operation.  The exact voltage
+depends on your Eurorack power supply and D2.  Any voltage between
+6.7V to 5.5V is acceptable, because the analog voltage regulators
+will create the actual analog power from this unregulated input.
+
+## 5.0V and 3.3V (TP10 and TP7)
+
+Analog power for analog input and output chips.  5.0V is created by
+U14, C72, C76, C91, and 3.3V is created by U15, C60, C71, C78.
+
+## 2.5V REF (TP3)
+
+Primary 2.5V reference: This is the main reference voltage that is
+the fundamental source for accuracy of all Control Voltage (CV) inputs
+and outputs.  It is created by U19, C62, C79.  This voltage does not
+turn on automatically at startup.  Phazerville fireware must configure
+and enable it.  If you see no voltage, Teensy may not be running, or
+Phazerville may be reading incorrect ID voltage which could cause it
+to attempt use of a different chip, like the one used on original
+Ornament and Crime with only 4 CV outputs.
+
+## 1.8V (TP11)
+
+Analog ADC power: This powers the ADC chip used for all 8 CV inputs.
+It is created by U16, C58, C80.  This power is kept off until the
+2.5V REF is active, because the U17 ADC chip has a self calibration
+feature which only works properly if its other power sources start
+up earlier.
+
+## 5.0V REF (TP2)
+
+Analog ADC reference: This is the voltage reference used by the ADC
+chip for accuracy of all CV inputs.  It is created from 2.5V REF by
+U26, R118, R136, R137, C59, C92, C93, L3, D6.
+
+## 1.25V (TP9)
+
+Analog CV Output Bias: All CV output amplifiers on the analog board
+use this voltage to convert the DAC chip (U19) positive-only voltages
+to Control Voltage which may be positive or negative.  It is created
+by R133, R134, R61.
+
+Optionally R200 can be soldered to modify CV output voltage range.
+Normally this modification would be used with
+[Squares and Circles](https://github.com/eh2k/squares-and-circles)
+firmware.
+
+## -5.0V (TP1)
+
+Analog CV Input Offset: All CV input amplifiers on the analog board
+use this offset voltage to convert Control Voltage (might can be
+positive or negative) to the positive-only range of the ADC input
+chips (U17 and U18).  It is created by U26, R135, R138.
+
+Optionally R201 can be soldered to modify CV input voltage range.
+Normally this modification would be used with
+[Squares and Circles](https://github.com/eh2k/squares-and-circles)
+firmware.
+
+## 1.5V (TP14)
+
+Trigger Threshold: All 4 trigger inputs use this voltage to define
+the difference between off and on.  Actual triggering uses ~10%
+hysteresis, so the off-to-on threshold will be slightly higher than
+this voltage, and the on-to-off wil be slightly lower.  Hysteresis
+is meant to prevent false triggering with analog signals close to
+the threshold, especially if they have slight noise or modulation.
+
+
 
