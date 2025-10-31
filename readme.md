@@ -253,7 +253,7 @@ U26, R118, R136, R137, C59, C92, C93, L3, D6.
 Analog CV Output Bias: All CV output amplifiers on the analog board
 use this voltage to convert the DAC chip (U19) positive-only voltages
 to Control Voltage which may be positive or negative.  It is created
-by R133, R134, R61.
+from 2.5V REF by R133, R134, R61.
 
 Optionally R200 can be soldered to modify CV output voltage range.
 Normally this modification would be used with
@@ -265,7 +265,7 @@ firmware.
 Analog CV Input Offset: All CV input amplifiers on the analog board
 use this offset voltage to convert Control Voltage (might can be
 positive or negative) to the positive-only range of the ADC input
-chips (U17 and U18).  It is created by U26, R135, R138.
+chips (U17 and U18).  It is created from 2.5V REF by U26, R135, R138.
 
 Optionally R201 can be soldered to modify CV input voltage range.
 Normally this modification would be used with
