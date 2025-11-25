@@ -162,6 +162,7 @@ false triggering when the cable is "floating".
 
 ![](docs/ext_trigger_schematic.png)
 
+![](docs/ext_trigger_wired.jpg)
 
 # Test Points For Troubleshooting
 
