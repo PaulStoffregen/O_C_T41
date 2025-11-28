@@ -1878,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 165.1) (xy 76.2 165.1)
+			(xy 38.1 162.56) (xy 76.2 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1938,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 76.2 167.64)
+			(xy 38.1 165.1) (xy 76.2 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 33.02 165.1 0)
+		(at 33.02 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2398,7 @@
 		(fields_autoplaced yes)
 		(uuid "2411cf62-d935-45d4-bfa1-5dd34a38ff6b")
 		(property "Reference" "J8"
-			(at 33.655 160.02 0)
+			(at 33.655 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Value" "MIDI_IN_PINS"
-			(at 33.655 162.56 0)
+			(at 33.655 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2414,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 33.02 165.1 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 165.1 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 33.02 165.1 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3313,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 81.28 167.64 180)
+		(at 81.28 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3322,7 +3322,7 @@
 		(fields_autoplaced yes)
 		(uuid "d658d2de-c525-4214-bcf9-f9be888048c9")
 		(property "Reference" "J7"
-			(at 88.9 165.7349 0)
+			(at 88.9 163.1949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(property "Value" "MIDI_IN"
-			(at 88.9 168.2749 0)
+			(at 88.9 165.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 81.28 167.64 0)
+			(at 81.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 167.64 0)
+			(at 81.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3358,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 81.28 167.64 0)
+			(at 81.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Value" "DEV"
+		(property "Value" "DEV_USB_PINS"
 			(at 33.655 35.56 0)
 			(effects
 				(font

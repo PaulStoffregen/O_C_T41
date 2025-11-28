@@ -1,0 +1,14 @@
+2HP_EXT_LEFT:,,,,,
+Reference,Qty,Value,Description,PN,Link
+J1,1,DEV_USB,USB-C Socket,"TYPC-14PLC-H10.0 / ""10PCS Type-C-09""",https://www.sparkfun.com/sparkfun-usb-c-breakout-vertical.html / https://www.aliexpress.us/item/3256808414225667.html
+"J3, J5",2,"TR_1_JACK, TR_2_JACK","Jack, mono 3.5mm, PJ-301M",PJ-301M (WQP518MA),https://www.thonk.co.uk/shop/3-5mm-jacks/
+J7,1,MIDI_IN,"Jack, stereo 3.5mm, PJ366ST",PJ366ST,https://www.thonk.co.uk/shop/3-5mm-jacks/
+"R1,R2",2,4.7K,"Resistor 4.7K, 1%, 0805  ",RC0805FR-074K7L,https://www.mouser.com/ProductDetail/YAGEO/RC0805FR-074K7L?qs=VLOqbHBAO5cYXbrd7RTmuQ%3D%3D
+"R3,R4",2,100K,"Resistor 100K, 1%, 0805  ",RC0805FR-07100KL,https://www.mouser.com/ProductDetail/YAGEO/RC0805FR-07100KL?qs=8Y8p%252BasKcI7rEWn6FcVdAA%3D%3D
+,,,,,
+2HP_EXT_RIGHT:,,,,,
+Reference,Qty,Value,Description,PN,Link
+J1,1,HOST_USB,USB-A Socket,"CR860-E (""Brown"")",https://www.aliexpress.us/item/3256805906447314.html
+"J3, J5",2,"TR_3_JACK, TR_4_JACK","Jack, mono 3.5mm, PJ-301M",PJ-301M (WQP518MA),https://www.thonk.co.uk/shop/3-5mm-jacks/
+J7,1,MIDI_OUT,"Jack, stereo 3.5mm, PJ366ST",PJ366ST,https://www.thonk.co.uk/shop/3-5mm-jacks/
+"R3,R4",2,100K,"Resistor 100K, 1%, 0805  ",RC0805FR-07100KL,https://www.mouser.com/ProductDetail/YAGEO/RC0805FR-07100KL?qs=8Y8p%252BasKcI7rEWn6FcVdAA%3D%3D
