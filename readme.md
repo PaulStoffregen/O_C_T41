@@ -164,6 +164,17 @@ false triggering when the cable is "floating".
 
 ![](docs/ext_trigger_wired.jpg)
 
+![](docs/ext_triger_2pcb.jpg)
+
+# Commercial Products
+
+![](docs/product_orn8.jpg)
+[OC T.1 Phaserville O.R.N.8 by TLM Audio](https://www.tlm-audio.com/product-page/oc-4-1-phazerville)
+
+![](docs/product_ornate_criminal.jpg)
+[Ornate Criminal by After Later Audio](https://afterlateraudio.com/products/ornate-criminal)
+
+
 # Test Points For Troubleshooting
 
 The control board has 14 test points to help you diagnose hardware problems.
