@@ -513,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "4hp_plots/",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

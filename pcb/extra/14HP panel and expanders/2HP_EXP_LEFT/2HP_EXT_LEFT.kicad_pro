@@ -60,27 +60,51 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|35477054|98854000|93b142a6-66d0-4442-81dd-5ca14fa5adf2|d30cfcdd-6105-449f-ab8b-148a13a59290",
+          "courtyards_overlap|50717054|114070000|93b142a6-66d0-4442-81dd-5ca14fa5adf2|d30cfcdd-6105-449f-ab8b-148a13a59290",
           ""
         ],
         [
-          "hole_to_hole|30482054|100269000|4a8f16ff-10bf-47f0-9dfe-3159e7e69005|c5f52d59-7d38-4af8-96dc-f0f1594c1ae3",
+          "footprint_filters_mismatch|45721027|136731000|e0539a70-9fc8-4cfa-994f-163aa0421cb6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|29781027|118265000|26029143-c1f3-4ccb-b550-b76f088904d9|7763ea99-cb3d-441c-9b88-b06c3b171792|F.Cu",
+          "footprint_type_mismatch|45721027|136731000|e0539a70-9fc8-4cfa-994f-163aa0421cb6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|29781027|124765000|26029143-c1f3-4ccb-b550-b76f088904d9|92c6c1ca-183f-461a-b02f-8545abc08d08|B.Cu",
+          "hole_to_hole|45722054|115488000|4a8f16ff-10bf-47f0-9dfe-3159e7e69005|c5f52d59-7d38-4af8-96dc-f0f1594c1ae3",
           ""
         ],
         [
-          "starved_thermal|31181027|118265000|26029143-c1f3-4ccb-b550-b76f088904d9|f81f4489-4a81-47be-925f-8908f8e7f058|F.Cu",
+          "lib_footprint_mismatch|45722054|151796000|e63242ab-dbfa-42b5-a4d4-58827ddaf81b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|31181027|124765000|26029143-c1f3-4ccb-b550-b76f088904d9|8a94f90b-97f6-43ae-a5c1-6073d9a16db1|F.Cu",
+          "missing_courtyard|45721027|136731000|e0539a70-9fc8-4cfa-994f-163aa0421cb6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|45722054|115485000|c5f52d59-7d38-4af8-96dc-f0f1594c1ae3|93b142a6-66d0-4442-81dd-5ca14fa5adf2",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|45722054|115488000|4a8f16ff-10bf-47f0-9dfe-3159e7e69005|d30cfcdd-6105-449f-ab8b-148a13a59290",
+          ""
+        ],
+        [
+          "starved_thermal|45021027|133481000|26029143-c1f3-4ccb-b550-b76f088904d9|7763ea99-cb3d-441c-9b88-b06c3b171792|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|45021027|139981000|26029143-c1f3-4ccb-b550-b76f088904d9|92c6c1ca-183f-461a-b02f-8545abc08d08|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|46421027|133481000|26029143-c1f3-4ccb-b550-b76f088904d9|f81f4489-4a81-47be-925f-8908f8e7f058|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|46421027|139981000|26029143-c1f3-4ccb-b550-b76f088904d9|8a94f90b-97f6-43ae-a5c1-6073d9a16db1|F.Cu",
           ""
         ]
       ],
@@ -101,9 +125,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -118,20 +142,20 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
