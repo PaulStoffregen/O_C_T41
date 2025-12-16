@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "ORN8 2HP Ext. Panel (Trig + TRS MIDI + USB)")
-		(date "2025-11-26")
-		(rev "2")
+		(date "2025-12-15")
+		(rev "2.1")
 		(comment 3 "Aether Soundlab")
 		(comment 4 "Beau Sterling")
 	)
@@ -2539,7 +2539,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "5.1K"
 			(at 95.25 41.148 90)
 			(effects
 				(font
@@ -2739,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "5.1K"
 			(at 95.25 48.006 90)
 			(effects
 				(font

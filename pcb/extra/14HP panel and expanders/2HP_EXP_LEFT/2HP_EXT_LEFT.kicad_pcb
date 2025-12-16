@@ -9,7 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "ORN8 2HP Ext. Panel (Trig + TRS MIDI + USB)")
-		(date "2025-11-26")
+		(date "2025-12-15")
 		(rev "2.1")
 		(comment 3 "Aether Soundlab")
 		(comment 4 "Beau Sterling")
@@ -1931,7 +1931,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "5.1K"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "a8ec77f4-648d-4aac-9d87-f51a116fa888")
@@ -3146,7 +3146,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "5.1K"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "1210be5b-3b21-4f22-b3a6-b75f43466abb")
@@ -3686,7 +3686,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "4.7K"
+	(gr_text "5.1K"
 		(at 42.449027 142.827 0)
 		(layer "B.SilkS")
 		(uuid "49d4c2b0-ec01-4d20-ae73-9687a53649bc")
@@ -3870,7 +3870,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "4.7K"
+	(gr_text "5.1K"
 		(at 42.449027 129.873 0)
 		(layer "B.SilkS")
 		(uuid "f0970fd9-446e-4515-bc8f-acce3a31d58c")
