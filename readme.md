@@ -1,6 +1,6 @@
 # O_C T4.1 - Ornament and Crime with Teensy 4.1
 
-![](docs/main_with_expansions.jpg)
+![](pictures/main_with_expansions.jpg)
 
 While porting the Ornament and Crime code to run on Teensy 4, the question kept
 coming up "what can a 600 MHz processor let me do".  Turns out the extra memory
@@ -10,7 +10,7 @@ original hardware designed for Teensy 3.2 limits what Teensy 4.0 can do.  The
 necessity to share a single SPI port's bandwidth between the display and DAC
 chip is the main limit.
 
-![](docs/block_diagram.png)
+![](pictures/block_diagram.png)
 
 O_C T4.1 was born to allow Teensy 4.1 to be fully utilized by Phazerville
 firmware.  Control Voltage (CV) input and output was doubled to 8 signals.
@@ -74,13 +74,13 @@ Capacitors C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12 are not needed by newer
 
 # MIDI
 
-![](docs/expansion_panel.jpg)
+![](pictures/expansion_panel.jpg)
 
-![](docs/midi_din5_pinout.png)
+![](pictures/midi_din5_pinout.png)
 
-![](docs/midi_din5_wiring.png)
+![](pictures/midi_din5_wiring.png)
 
-![](docs/midi_din5_wiring2.jpg)
+![](pictures/midi_din5_wiring2.jpg)
 
 
 # Teensy Voltage and USB Host
@@ -118,26 +118,26 @@ using MIDI OUT, change R139 and R140 to 120 ohms for proper MIDI current.
 
 # USB Host
 
-![](docs/usb_host_teensy41.jpg)
+![](pictures/usb_host_teensy41.jpg)
 
-![](docs/usb_host_right_angle_header.jpg)
+![](pictures/usb_host_right_angle_header.jpg)
 
-![](docs/usb_host_gamepad.jpg)
+![](pictures/usb_host_gamepad.jpg)
 
-![](docs/usb_host_midi_LPD8.jpg)
+![](pictures/usb_host_midi_LPD8.jpg)
 
 [USB Host Cable at SparkFun](https://www.sparkfun.com/usb-host-cable-for-teensy-4-1-and-teensy-3-6.html) - For connecting MIDI instruments, Gamepad controllers, maybe other stuff as software support develops...
 
 [USB Device Cable at AdaFruit](https://www.adafruit.com/product/937) - For connecting to your PC or Mac, for upgrading [Phazerville firmware](https://github.com/djphazer/O_C-Phazerville), O_C can act as a MIDI device, and to run the [screen capture program](https://github.com/PaulStoffregen/Phazerville-Screen-Capture).
 
-![](docs/expansion_panel_back.jpg)
+![](pictures/expansion_panel_back.jpg)
 
 
 # Additional Memory
 
-![](docs/psram_chip.jpg)
+![](pictures/psram_chip.jpg)
 
-![](docs/psram_chip2.jpg)
+![](pictures/psram_chip2.jpg)
 
 
 # External Trigger
@@ -154,24 +154,24 @@ wire external trigger jacks to J24 and J25.  100K resistors are
 also recommended between each trigger input and GND, to prevent
 false triggering when the cable is "floating".
 
-![](docs/ext_trigger_pcb2.jpg)
+![](pictures/ext_trigger_pcb2.jpg)
 
-![](docs/ext_trigger_pcb.png)
+![](pictures/ext_trigger_pcb.png)
 
-![](docs/ext_trigger_schematic_default.png)
+![](pictures/ext_trigger_schematic_default.png)
 
-![](docs/ext_trigger_schematic.png)
+![](pictures/ext_trigger_schematic.png)
 
-![](docs/ext_trigger_wired.jpg)
+![](pictures/ext_trigger_wired.jpg)
 
-![](docs/ext_triger_2pcb.jpg)
+![](pictures/ext_triger_2pcb.jpg)
 
 # Commercial Products
 
-![](docs/product_orn8.jpg)
+![](pictures/product_orn8.jpg)
 [OC T.1 Phaserville O.R.N.8 by TLM Audio](https://www.tlm-audio.com/product-page/oc-4-1-phazerville)
 
-![](docs/product_ornate_criminal.jpg)
+![](pictures/product_ornate_criminal.jpg)
 [Ornate Criminal by After Later Audio](https://afterlateraudio.com/products/ornate-criminal)
 
 
