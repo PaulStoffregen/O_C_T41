@@ -145,7 +145,7 @@ using MIDI OUT, change R139 and R140 to 120 ohms for proper MIDI current.
 Normally the 4 trigger inputs are connected (shared) to CV1-CV4.
 
 
-![](pcb/external_triggers.png)
+![](old_version/external_triggers.png)
 
 You can modify the hardware to separate the triggers from CV1-CV4.
 
@@ -186,6 +186,8 @@ Tests can be done with the analog board connected or removed.  If signals
 which connect to the analog board read zero or a very low number, short
 circuits or other problems might be on the analog board.  Removing it and
 checking whether the voltages returns to normal may help localize the issue.
+
+![](/pictures/rev3_test_point_voltages.png)
 
 Testing the voltages in this order usually makes the most sense.
 
