@@ -1,0 +1,15 @@
+fp-info-cache
+
+*-backups/
+*.kicad_prl
+*.lck
+
+*.drl
+*.gbl
+*.gbo
+*.gbr
+*.gbs
+*.gm1
+*.gtl
+*.gto
+*.gts
