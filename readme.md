@@ -6,7 +6,7 @@ for demo of O_C T4.1 capability.
 
 This repository is for DIY builders and engineers who wish to extend this
 open source design.  For products you can simply buy, scroll down to
-[Commercial Products](Commercial Products)below.
+[Commercial Products](#commercial-products)below.
 
 ![](pictures/main_with_expansions.jpg)
 
