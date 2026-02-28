@@ -1,5 +1,13 @@
 # O_C T4.1 - Ornament and Crime with Teensy 4.1
 
+Check out SynthDad's
+[What's New and Improved video](https://www.youtube.com/watch?v=kT94mBjvVQI)
+for demo of O_C T4.1 capability.
+
+This repository is for DIY builders and engineers who wish to extend this
+open source design.  For products you can simply buy, scroll down to
+[Commercial Products](Commercial Products)below.
+
 ![](pictures/main_with_expansions.jpg)
 
 While porting the Ornament and Crime code to run on Teensy 4, the question kept
@@ -173,6 +181,9 @@ false triggering when the cable is "floating".
 
 ![](pictures/product_ornate_criminal.jpg)
 [Ornate Criminal by After Later Audio](https://afterlateraudio.com/products/ornate-criminal)
+
+![](pictures/thonk_cctv_kit.jpg)
+[Thonk CCTV Full DIY Kit](https://www.thonk.co.uk/shop/cctv-ornament-and-crime/) with [build guide](https://www.cctv.fm/post/ornament-and-crime-v4-1-build-guide)
 
 
 # Test Points For Troubleshooting
