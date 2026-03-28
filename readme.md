@@ -307,4 +307,23 @@ is meant to prevent false triggering with analog signals close to
 the threshold, especially if they have slight noise or modulation.
 
 
+# CV Output Troubleshooting
+
+If your CV outputs are not working properly, voltage passed between
+the front analog board and the back side control board can be measured.
+
+![](/pictures/dac_signals.png)
+
+The goal is to figure out whether a problem with CV output exists on
+the analog board or control board.
+
+These DAC voltage range from 0 to 2.5 volts.  The analog board multiplies
+by -4 (inverts) and adds an offset, so 0 to 2.5V maps approx to 6.5V to -3.5V.
+
+The control board can be powered without the analog board.  Even though
+the display and pushbuttons are lost, which limits what you can do, a
+problem where a short or low impedance on the analog board forces the
+DAC signal low (which might at first seem to be a problem on the control
+board) would disappear with the DAC signal returning to normal without
+the analog board attached.
 
