@@ -145,9 +145,9 @@ using MIDI OUT, change R139 and R140 to 120 ohms for proper MIDI current.
 
 Phazerville can use additional memory for audio delay effects.  This
 [8MB PSRAM](https://www.sparkfun.com/8-mbyte-psram-chip.html) (ApMemory
-part number APS6404L_3SQR) and a
+part number APS6404L_3SQR) or this
 [larger 16MB PSRAM](https://protosupplies.com/product/psram_16mb/)
-(ISSI part number IS66WVS16M8FBLL-104NLI.
+(ISSI part number IS66WVS16M8FBLL-104NLI) are supported.
 
 ![](pictures/psram_chip.jpg)
 
