@@ -143,9 +143,19 @@ using MIDI OUT, change R139 and R140 to 120 ohms for proper MIDI current.
 
 # Additional Memory
 
+Phazerville can use additional memory for audio delay effects.  This
+[8MB PSRAM](https://www.sparkfun.com/8-mbyte-psram-chip.html) (ApMemory
+part number APS6404L_3SQR) and a
+[larger 16MB PSRAM](https://protosupplies.com/product/psram_16mb/)
+(ISSI part number IS66WVS16M8FBLL-104NLI.
+
 ![](pictures/psram_chip.jpg)
 
 ![](pictures/psram_chip2.jpg)
+
+1 or 2 PSRAM chips can be added to Teensy 4.1.  If only 1 is added,
+it must be soldered to the smaller location at the edge of the board
+near pins 31-34.
 
 
 # External Trigger
