@@ -240,7 +240,9 @@ Optionally R202 can be soldered to increase the ID voltage.  Normally
 this would only be done if substantially modifying the hardware to
 another configuration
 [Phazerville firmware](https://github.com/djphazer/O_C-Phazerville)
-supports.
+supports.  This
+[list of ID voltages](https://github.com/djphazer/O_C-Phazerville/wiki/ORN8-HW_ID-Voltages)
+documents how the firmware responds to other voltages.
 
 ## 6.1V (TP6)
 
