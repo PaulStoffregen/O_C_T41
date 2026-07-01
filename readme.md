@@ -195,6 +195,9 @@ false triggering when the cable is "floating".
 ![](pictures/thonk_cctv_kit.jpg)
 [Thonk CCTV Full DIY Kit](https://www.thonk.co.uk/shop/cctv-ornament-and-crime/) with [build guide](https://www.cctv.fm/post/ornament-and-crime-v4-1-build-guide)
 
+![](pictures/product_xloc2.jpg)
+[XLOC2 by Calsynth](https://calsynth.com/products/xloc2-preorder-calsynth-exclusive-next-gen-4-1-ornament-and-crime-special-intro-price)
+
 
 # Test Points For Troubleshooting
 
