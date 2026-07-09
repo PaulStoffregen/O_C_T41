@@ -198,6 +198,9 @@ false triggering when the cable is "floating".
 ![](pictures/product_xloc2.jpg)
 [XLOC2 by Calsynth](https://calsynth.com/products/xloc2-preorder-calsynth-exclusive-next-gen-4-1-ornament-and-crime-special-intro-price)
 
+![](pictures/product_xenomorpher.jpg)
+[Xenomorpher by Northern Light Modular](https://northernlightmodular.com/product/sx0/)
+
 
 # Test Points For Troubleshooting
 
